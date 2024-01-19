@@ -1,0 +1,479 @@
+/**
+ * The contents of this file are subject to the license and copyright
+ * detailed in the LICENSE and NOTICE files at the root of the source
+ * tree and available online at
+ *
+ * http://www.dspace.org/license/
+ */
+
+/**
+ * You can put your own style in this file.
+ * It will be included in all color schemes
+ */
+
+/**
+* Styling for version 6.x
+**/
+/* For the Home icon in the breadcrumb under the DSpace logo */
+.glyphicon {
+  color: #FFF
+}
+
+/* Special one-off case for the glyphicon-file */
+.glyphicon-file, .glyphicon-ok,
+.glyphicon-arrow-up, .glyphicon-arrow-down,
+.glyphicon-arrow-left, .glyphicon-arrow-right {
+    color: #BF5700;
+}
+
+/* For buttons */
+.btn-primary, .btn-default {
+  color: #FFF;
+  background-color: #327673;
+  border-color: #327673
+}
+
+.main-content {
+  background-color: transparent;
+}
+
+/* For the padding for the DSpace logo */
+.navbar-brand {
+/*   padding: 0px 15px */
+
+}
+
+body {
+  font-size: 14px;
+}
+
+a {
+  background-color: transparent;
+}
+
+.navbar-brand img{
+  @media (max-width: $screen-xs-max) {
+    max-width: 45%;
+    position: absolute;
+    margin: 20px;
+  }
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    max-height: 80px;
+    float: right;
+    position: absolute;
+    margin: 20px;
+  }
+}
+
+/* For breadcrumb text color */
+.breadcrumb>li {
+  color: #000;
+}
+
+/* For breadcrumb text color when breadcrumb is a clickable link */
+.breadcrumb>li>a {
+  color: #000;
+  font-weight: bold;
+}
+
+/* For Discovery Simple Filter labels  */
+.label-primary {
+  background-color: #000
+}
+
+/* For Discovery Simple Filter label mouse hover */
+.label-primary[href]:hover,.label-primary[href]:focus {
+  background-color: #000
+}
+
+/* For right-hand menu clickable item */
+a.list-group-item {
+  color: #098484;
+}
+
+/* For right-hand menu clickable item mouse hover */
+a.list-group-item:hover,a.list-group-item:focus {
+  color: #327673;
+}
+
+/* For titles above sections inside of right-hand menu */
+.list-group-item.active,.list-group-item.active:hover,.list-group-item.active:focus {
+  background-color: #327673;
+  border-color: #327673;
+}
+
+/* For titles above sections outside of right-hand menu  */
+#ds-options .ds-option-set-head {
+  color: #327673;
+}
+
+/* For top bar behind DSpace logo  */
+header .navbar-default {
+  background-color:white;
+}
+
+header a {
+  background-color: #fff;
+}
+
+header .navbar-brand-orange img{
+  height:28px;
+}
+
+header .navbar-brand-orange-bottom{
+  background-color: #BF5700;
+  color: #FFF;
+  height: 34px;
+}
+
+header .navbar {
+  color: #9d9d9d;
+  margin-bottom: 0px;
+  border: none
+}
+
+header .navbar-default .navbar-brand {
+  color: #327673
+}
+
+header .navbar-default .navbar-brand:hover,header .navbar-default .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent
+}
+
+header .navbar-default .navbar-text {
+  color: #9d9d9d
+}
+
+header .navbar-default .navbar-toggle,header .navbar-default .navbar-nav {
+  border-color: transparent;
+  color: #327673
+}
+
+header .navbar-default .navbar-toggle .icon-bar,header .navbar-default .navbar-nav .icon-bar {
+  background-color: #327673
+}
+
+header .navbar-default .navbar-toggle:hover,header .navbar-default .navbar-toggle:focus,header .navbar-default .navbar-nav:hover,header .navbar-default .navbar-nav:focus {
+  color: #fff;
+  background-color: #122538
+}
+
+header .navbar-default .navbar-toggle>li>a,header .navbar-default .navbar-nav>li>a {
+  color: #327673
+}
+
+header .navbar-default .navbar-toggle>li>a:hover,header .navbar-default .navbar-toggle>li>a:focus,header .navbar-default .navbar-nav>li>a:hover,header .navbar-default .navbar-nav>li>a:focus {
+  color: #fff;
+  background-color: #122538
+}
+
+header .navbar-default .navbar-toggle>.active>a,header .navbar-default .navbar-toggle>.active>a:hover,header .navbar-default .navbar-toggle>.active>a:focus,header .navbar-default .navbar-nav>.active>a,header .navbar-default .navbar-nav>.active>a:hover,header .navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: #122538
+}
+
+header .navbar-default .navbar-toggle>.disabled>a,header .navbar-default .navbar-toggle>.disabled>a:hover,header .navbar-default .navbar-toggle>.disabled>a:focus,header .navbar-default .navbar-nav>.disabled>a,header .navbar-default .navbar-nav>.disabled>a:hover,header .navbar-default .navbar-nav>.disabled>a:focus {
+  color: #444;
+  background-color: transparent
+}
+
+header .navbar-default .navbar-toggle>.open>a,header .navbar-default .navbar-toggle>.open>a:hover,header .navbar-default .navbar-toggle>.open>a:focus,header .navbar-default .navbar-nav>.open>a,header .navbar-default .navbar-nav>.open>a:hover,header .navbar-default .navbar-nav>.open>a:focus {
+  background-color: #122538;
+  color: #fff
+}
+
+/* For top bar under the DSpace logo where breadcrumb resides */
+.trail-wrapper {
+  color: black;
+  background-color: #FFF;
+  border-top: 1px solid #EBE8E2;
+  border-bottom: none;
+}
+
+/* For breadcrumb slash between crumbs */
+.trail-wrapper .breadcrumb>li+li:before {
+  color: #000
+}
+
+/* For breadcrumb crumb that is currently active */
+.trail-wrapper .breadcrumb>.active {
+  color: #000
+}
+
+/* For resizing the DSpace logo */
+header .navbar-brand img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 104px;
+}
+
+.navbar {
+  min-height: 128px
+}
+
+/* For sandwiched breadcrumb when window size is small */
+#trail-dropdown-toggle {
+  color: #000
+}
+
+.bx-wrapper .bx-caption span {
+  font-size: 1.4em;
+}
+
+/** 
+* Styling for version 5.x
+**/
+
+/* example mixin to set the text-selection style */
+@mixin selection {
+    ::-moz-selection { @content; }
+    ::selection { @content; }
+}
+
+@include selection {
+    color: white;
+    background: hotpink;
+}
+
+#footertext {
+  text-align: right;
+  margin-bottom: 0px;
+  padding-top: 4px;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-size: 0.8em;
+  color: #666;
+}
+#social-icons-footer {
+  position: absolute;
+  height: 32px;
+  right: 100px;
+  text-align: right;
+  padding: 4px 0px 0px;
+  margin: 0px;
+}
+#social-icons-footer a{
+  padding-right:5px;
+}
+.list-group-item.active{
+  background-color: #327673;
+}
+a.list-group-item {
+  color: #098484;
+}
+
+/*Navigation fonts*/
+#sidebar, .list-group-item.active{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  text-align: left;
+  font-weight: 600;
+}
+
+body a {
+  color:#333;
+}
+
+#aspect_discovery_SiteRecentSubmissions_p_recent-submission-view-more a{
+  color:#BF5700 ;
+}
+
+.social-links a{
+  color:#BF5700 ;
+}
+
+.ut-core-link {
+  height: 32px;
+  background: transparent url("https://admissions.utexas.edu/sites/all/themes/adm/css/images/ut-informal-horizontal-ko.svg") no-repeat scroll left 5px / 112px 25px;
+  display: block;
+  line-height: 1;
+  margin: 0px auto;
+  width: 112px;
+}
+
+.navbar-static-top {
+  height:153px;
+  @media (max-width: $screen-sm-max) {
+    height:105px;
+  }
+}
+
+.thumbnail {
+  background-color: transparent;
+}
+
+.thumbnail img {
+  border: none;
+}
+.breadcrumb {
+  font-weight: bold;
+}
+
+.artifact-title{
+  font-size: 15px;
+}
+
+.item-summary-view-metadata h5 {
+  font-weight: bold;
+}
+
+div#aspect_discovery_SiteRecentSubmissions_div_site-recent-submission .artifact-abstract{
+  display:none;
+
+}
+
+div#aspect_artifactbrowser_CollectionViewer_div_collection-view > p.ds-paragraph a {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h1{
+  font-size:30px;
+}
+
+/* CSS for UTL footer */
+.footer-social-icons li {
+  display:inline;
+}
+
+.footer-social-icons li img {
+  height:40px;
+  width:auto;
+  margin-top:-5px;
+}
+
+.footer-field-container {
+  display:block;
+  /*background-color:#f8f8f8; - apply for grey tint*/
+  background-color:white;
+  width:100%;
+  padding:10px;
+  /*border-top:1px solid #9d9fa2; - apply for top line*/
+}
+.footer-field-container ul {
+  list-style-type: none;
+}
+
+.footer-field-container a {
+  text-decoration:none;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333;
+}
+
+.footer-field-container p {
+  text-decoration:none;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333;
+  padding-top:20px;
+  font-style:italic;
+}
+
+.footer-field-container a:hover {
+  text-decoration:underline;
+}
+
+.footer-field-5 {
+  text-decoration:none;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333;
+}
+
+.footer-field-4 {
+  clear:both;
+}
+
+.footer-field-4 a {
+  border:1px solid #bf5700;
+  margin-right:10px;
+  border-radius:5px;
+  padding:10px;
+  background-color:white;
+  color:#bf5700;
+  font-weight:bold;
+}
+
+.footer-field-4 a:hover {
+  text-decoration:underline;
+  border:1px solid #bf5700;
+  margin-right:10px;
+  border-radius:5px;
+  padding:10px;
+  background-color:#bf5700;
+  color:white;
+  font-weight:bold;
+}
+
+
+@media only screen and (min-width: 300px) {
+
+.footer-field-1 img {
+  height:60px;
+  width:auto;
+}
+
+.footer-field-1 {
+  float:none;
+  width:100%;
+}
+
+.footer-field-2 {
+  float:none;
+  width:100%;
+}
+
+.footer-field-3 {
+  float:none;
+  width:100%;
+}
+
+.footer-field-4 li {
+  display:block;
+  padding-top:5px;
+  padding-bottom:25px;
+}
+
+}
+
+@media only screen and (min-width:900px) {
+
+.footer-field-1 img {
+  height:auto;
+  width:350px
+}
+
+.footer-field-1 {
+  float:left;
+  width:350px;
+  padding:10px;
+  overflow:none;
+}
+
+.footer-field-2 {
+  float:left;
+  width:300px;
+  padding:10px;
+  margin-left:30px;
+  height:100%;
+}
+
+.footer-field-3 {
+  float:left;
+  width:200px;
+}
+
+.footer-field-4 li {
+  display:inline;
+}
+
+}
+
+audio {
+    width: 100%;
+}
+

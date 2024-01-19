@@ -1,0 +1,228 @@
+/* Banner - EDITABLE */
+.banner {
+	background-image: url(https://water.usgs.gov/GIS/metadata/usgswrd/Banner/header_graphic_banner.jpg);
+	background-repeat: repeat-x;
+}
+/* END Banner */
+
+/* Common Customer Services Area - NON-EDITABLE AREA */
+.ccsa {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-left: 4px;
+	text-decoration: none;
+	background-color: #000000; 
+	white-space: nowrap;
+
+}
+A.ccsa:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-left: 2px;
+	font-weight: bold;
+}
+A.ccsa:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-left: 3px;
+	font-weight: bold;
+}
+A.ccsa:link {
+	color: #FFFFFF;
+}
+A.ccsa:visited {
+	color: #FFFFFF;
+}
+/* END Common Customer Services Area */
+
+/* Site Title - DO NOT MODIFY FIELDS ABOVE THE NOTE "Modify Below Add or Edit Fields" */
+.siteTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	padding: 3px;
+	/* Modify Below Add or Edit Fields */
+	background-color: #d0d0d0;
+	color: #006633;
+}
+/* END Site Title */
+
+/* Page Content - DO NOT NODIFY FIELDS ABOVE THE NOTE "Modify Below Add or Edit Fields" */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #000000;
+	background-color: #FFFFFF; 
+	/* Modify Below Add or Edit Fields */
+}
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+	/* Modify Below Add or Edit Fields */
+}
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+	/* Modify Below Add or Edit Fields */
+}
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	/* Modify Below Add or Edit Fields */
+	color:#006633
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	/* Modify Below Add or Edit Fields */
+	color:#000000
+}
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	/* Modify Below Add or Edit Fields */
+	color:#000000
+}
+h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	/* Modify Below Add or Edit Fields */
+	color:#000066
+}
+h5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* Modify Below Add or Edit Fields */
+	color:#FFFFFF;
+	padding: 5px;
+}
+H6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* Modify Below Add or Edit Fields */
+}
+ADDRESS {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+	/* Modify Below Add or Edit Fields */
+}
+UL {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+	/* Modify Below Add or Edit Fields */
+}
+OL {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+	/* Modify Below Add or Edit Fields */
+}
+LI {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+}
+TH {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+	/* Modify Below Add or Edit Fields */
+}
+CAPTION {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+}
+DL {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+	/* Modify Below Add or Edit Fields */
+}
+DD {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+}
+DT {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+	/* Modify Below Add or Edit Fields */
+}
+BLOCKQUOTE {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+	/* Modify Below Add or Edit Fields */
+}
+PRE {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: small;
+	/* Modify Below Add or Edit Fields */
+}
+
+/* END Body Area */
+
+/* Global Page Links - NON-EDITABLE AREA */
+A.link {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #0000FF;
+font-size: small;
+}
+A.visited {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #993366;
+font-size: small;
+}
+A:hover {
+text-decoration: none;
+}
+/* Global Page Links - NON-EDITABLE AREA */
+
+/* Footer Area - NON-EDITABLE AREA */
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 4px;
+}
+td.footer {
+	background-color:#666666;
+}
+p.footer {
+	font-size: 14px;
+}
+A.footer:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+A.footer:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+A.footer:link {
+	color: #FFFFFF;
+	margin-right: 20px;
+}
+A.footer:visited {
+	color: #FFFFFF;
+}
+/* END Footer Area */

@@ -1,0 +1,1077 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" async="" src="analytics.js"></script><script type="text/javascript">
+
+      function fix(e) {
+        var par = e.parentNode;
+        e.id = "";
+        e.style.marginLeft = "0.42in";
+        var pos = e.innerText.indexOf("\n");
+        if (pos > 0) {
+          while (pos > 0) {
+            var t = e.childNodes(0);
+            var n = document.createElement("PRE");
+            var s = t.splitText(pos);
+            e.insertAdjacentElement("afterEnd", n);
+            n.appendChild(s);
+            n.style.marginLeft = "0.42in";
+            e = n;
+            pos = e.innerText.indexOf("\n");
+          }
+          var count = (par.children.length);
+          for (var i = 0; i < count; i++) {
+            e = par.children(i);
+            if (e.tagName == "PRE") {
+              pos = e.innerText.indexOf(">");
+              if (pos != 0) {
+                n = document.createElement("DD");
+                e.insertAdjacentElement("afterEnd", n);
+                n.innerText = e.innerText;
+                e.removeNode(true);
+              }
+            }
+          }
+          if (par.children.tags("PRE").length > 0) {
+            count = (par.children.length);
+            for (i = 0; i < count; i++) {
+              e = par.children(i);
+              if (e.tagName == "PRE") {
+                e.id = "";
+                if (i < (count-1)) {
+                  var e2 = par.children(i + 1);
+                  if (e2.tagName == "PRE") {
+                    e.insertAdjacentText("beforeEnd", e2.innerText+"\n");
+                    e2.removeNode(true);
+                    count = count-1;
+                    i = i-1;
+                  }
+                }
+              }
+            }
+          }
+        }
+        else {
+          n = document.createElement("DD");
+          par.appendChild(n);
+          n.innerText = e.innerText;
+          e.removeNode(true);
+        }
+      }
+    </script><script type="application/javascript" src="usgs-analytics"></script><script src="js"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141213604-1');
+</script>
+</head>
+<body oncontextmenu="return true">
+<a name="Top"></a><title>USGS Water Resources NSDI Node</title>
+<link href="wrdNsdi_style_sheet.css" rel="stylesheet" type="text/css">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td><table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td width="178" align="left"><a href="https://www.usgs.gov/"><img src="header_graphic_usgsIdentifier_white.jpg" alt="Link to USGS home page." width="178" height="72" border="0"></a></td>
+<td class="banner" width="100%"><table class="ccsa" width="150" cellspacing="0" cellpadding="0" border="0" align="right"><tbody><tr>
+<td><img src="header_graphic_spacer.gif" alt="" width="1" height="72"></td>
+<td>
+<a href="https://www.usgs.gov/" class="ccsa">USGS Home</a><br><a href="https://www.usgs.gov/ask/index.html" class="ccsa">Contact USGS</a><br><a href="https://search.usgs.gov/" class="ccsa">Search USGS</a>
+</td>
+</tr></tbody></table></td>
+</tr></tbody></table></td></tr>
+<tr><td class="siteTitle">Water Resources NSDI Node</td></tr>
+</tbody></table>
+<a name="Top"></a><h1>GAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow</h1>
+<table width="450" border="3" align="right">
+<tbody><tr><td><font size="-1"><a href="https://water.usgs.gov/maps.html">Water Resource  Maps and GIS Data</a></font></td></tr>
+<tr><td><font size="-1"><a href="#stdorder">Click To Get This Data Set</a></font></td></tr>
+<tr><td><font size="-1"><a href="https://water.usgs.gov/lookup/getgislist">List of All GIS Data Sets On The Water Resources NSDI Node</a></font></td></tr>
+</tbody></table>
+<h2>Metadata:</h2>
+<ul>
+<li><a href="#Identification_Information">Identification_Information</a></li>
+<li><a href="#Data_Quality_Information">Data_Quality_Information</a></li>
+<li><a href="#Spatial_Data_Organization_Information">Spatial_Data_Organization_Information</a></li>
+<li><a href="#Spatial_Reference_Information">Spatial_Reference_Information</a></li>
+<li><a href="#Entity_and_Attribute_Information">Entity_and_Attribute_Information</a></li>
+<li><a href="#stdorder">Distribution_Information - 
+                <strong>( Get This Data Set Here ! )</strong></a></li>
+<li><a href="#Metadata_Reference_Information">Metadata_Reference_Information</a></li>
+</ul>
+<a name="Identification_Information"><hr></a><dl>
+<dt><strong><i>Identification_Information: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Citation: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Citation_Information: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Originator: </i></strong>James Falcone</dt>
+<dt>
+<strong><i>Publication_Date: </i></strong>20111012</dt>
+<dt><strong><i>Title: </i></strong></dt>
+<dd>GAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow</dd>
+<dt>
+<strong><i>Geospatial_Data_Presentation_Form: </i></strong>vector digital data</dt>
+<dt><strong><i>Publication_Information: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Publication_Place: </i></strong>Reston, Virginia</dt>
+<dt>
+<strong><i>Publisher: </i></strong>U.S. Geological Survey</dt>
+</dl></dd>
+<dt>
+<strong><i>Online_Linkage: </i></strong><a target="viewer" href="https://water.usgs.gov/lookup/getspatial?gagesII_Sept2011">https://water.usgs.gov/lookup/getspatial?gagesII_Sept2011</a>
+</dt>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Description: </i></strong></dt>
+<dd><dl>
+<div><dt>
+<strong><i>Abstract: </i></strong><pre id="" style="margin-left: 0.42in;">This dataset, termed "GAGES II", an acronym for Geospatial Attributes of Gages for 
+Evaluating Streamflow, version II, provides geospatial data and classifications for 9,322 
+stream gages maintained by the U.S. Geological Survey (USGS). It is an update to the 
+original GAGES, which was published as a Data Paper on the journal Ecology's website 
+(Falcone and others, 2010b) in 2010. The GAGES II dataset consists of gages which 
+have had either 20+ complete years (not necessarily continuous) of discharge record 
+since 1950, or are currently active, as of water year 2009, and whose watersheds lie 
+within the United States, including Alaska, Hawaii, and Puerto Rico. Reference gages 
+were identified based on indicators that they were the least-disturbed watersheds within 
+the framework of broad regions, based on 12 major ecoregions across the United States. 
+Of the 9,322 total sites, 2,057 are classified as reference, and 7,265 as non-reference. 
+Of the 2,057 reference sites, 1,633 have (through 2009) 20+ years of record since 1950. 
+Some sites have very long flow records: a number of gages have been in continuous 
+service since 1900 (at least), and have 110 years of complete record (1900-2009) to date.
+			  
+The geospatial data include several hundred watershed characteristics compiled from 
+national data sources, including environmental features (e.g. climate – including historical 
+precipitation, geology, soils, topography) and anthropogenic influences (e.g. land use, 
+road density, presence of dams, canals, or power plants). The dataset also includes 
+comments from local USGS Water Science Centers, based on Annual Data Reports, 
+pertinent to hydrologic modifications and influences. The data posted also include 
+watershed boundaries in GIS format. 
+			  
+This overall dataset is different in nature to the USGS Hydro-Climatic Data Network 
+(HCDN; Slack and Landwehr 1992), whose data evaluation ended with water year 1988. 
+The HCDN identifies stream gages which at some point in their history had periods which 
+represented natural flow, and the years in which those natural flows occurred were identified 
+(i.e. not all HCDN sites were in reference condition even in 1988, for example, 02353500). 
+The HCDN remains a valuable indication of historic natural streamflow data. However, the 
+goal of this dataset was to identify watersheds which currently have near-natural flow 
+conditions, and the 2,057 reference sites identified here were derived independently of the 
+HCDN. A subset, however, noted in the BasinID worksheet as “HCDN-2009”, has been 
+identified as an updated list of 743 sites for potential hydro-climatic study. The HCDN-2009 
+sites fulfill all of the following criteria: 
+	(a) have 20 years of complete and continuous flow record in the last 20 years 
+(water years 1990-2009), and were thus also currently active as of 2009, 
+	(b) are identified as being in current reference condition according to the GAGES-II classification, 
+	(c) have less than 5 percent imperviousness as measured from the NLCD 2006, and 
+	(d) were not eliminated by a review from participating state Water Science Center evaluators.
+			  
+The data posted here consist of the following items:- This point shapefile, with summary data 
+for the 9,322 gages.- A zip file containing basin characteristics, variable definitions, and a more 
+detailed report.- A zip file containing shapefiles of basin boundaries, organized by classification 
+and aggregated ecoregion.- A zip file containing mainstem stream lines (Arc line coverages) for 
+each gage.</pre>
+<script>fix(original)</script>
+</dt></div>
+<p></p>
+<div><dt>
+<strong><i>Purpose: </i></strong><pre id="" style="margin-left: 0.42in;">This dataset has two purposes: 
+(1) to provide users with a comprehensive set of geospatial characteristics for a large number 
+of gaged watersheds, particularly for gages with long flow record, and 
+
+(2) to provide a determination of which of those watersheds represent hydrologic conditions 
+which are least disturbed by human influences ("reference gages"), compared to other watersheds 
+within 12 major ecoregions.  Identifying reference gages serves important research goals: for 
+example identifying conditions or goals for stream restoration, climate change studies, and more.
+</pre>
+<script>fix(original)</script>
+</dt></div>
+<p></p>
+<div>
+<dt><strong><i>Supplemental_Information: </i></strong></dt>
+<pre id="" style="margin-left: 0.42in;">The meaning of following phrases in the screening comments column in the file
+gagesII_sep30_2011_conterm with tab Bas_Classif:
+1. NEoA = No Evidence of hydrologic Alteration, based on examination of remote imagery.
+2. ROMO= Rocky Mountain National Park
+3. lt development = Light development. Minimal development.
+4. lt ag = Light agriculture. Meaning, widely scattered row crops or pasture. 
+5. hw =headwaters
+6. HBN = Hydrologic Benchmark Network station (relatively pristine site)
+7. RoR dams= run-of-river dams.  Dams that have no substantive storage.
+8. mod-hvy ag = Moderate-heavy agricultural footprint.  Meaning, A mix of row crops and pasture.
+</pre>
+<script>fix(original)</script>
+</div>
+</dl></dd>
+<dt><strong><i>Time_Period_of_Content: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Time_Period_Information: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Single_Date/Time: </i></strong></dt>
+<dd><dl><dt>
+<strong><i>Calendar_Date: </i></strong>2011</dt></dl></dd>
+</dl></dd>
+<div>
+<dt><strong><i>Currentness_Reference: </i></strong></dt>publication date</div>
+</dl></dd>
+<dt><strong><i>Status: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Progress: </i></strong>Complete</dt>
+<dt>
+<strong><i>Maintenance_and_Update_Frequency: </i></strong>None Planned</dt>
+</dl></dd>
+<dt><strong><i>Spatial_Domain: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Bounding_Coordinates: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>West_Bounding_Coordinate: </i></strong>-180.000000</dt>
+<dt>
+<strong><i>East_Bounding_Coordinate: </i></strong>180.000000</dt>
+<dt>
+<strong><i>North_Bounding_Coordinate: </i></strong>90.000000</dt>
+<dt>
+<strong><i>South_Bounding_Coordinate: </i></strong>5.402082</dt>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Keywords: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Theme: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Theme_Keyword_Thesaurus: </i></strong>USGS Thesaurus</dt>
+<dt>
+<strong><i>Theme_Keyword: </i></strong>inlandWaters</dt>
+<dt>
+<strong><i>Theme_Keyword: </i></strong>USGS gages</dt>
+<dt>
+<strong><i>Theme_Keyword: </i></strong>streamflow</dt>
+<dt>
+<strong><i>Theme_Keyword: </i></strong>HCDN</dt>
+<dt>
+<strong><i>Theme_Keyword: </i></strong>GAGES</dt>
+<dt>
+<strong><i>Theme_Keyword: </i></strong>reference watersheds</dt>
+<dt>
+<strong><i>Theme_Keyword: </i></strong>hydrologic condition</dt>
+<dt>
+<strong><i>Theme_Keyword: </i></strong>hydrologic modification</dt>
+<dt>
+<strong><i>Theme_Keyword: </i></strong>streamgage network</dt>
+</dl></dd>
+<dt><strong><i>Theme: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Theme_Keyword_Thesaurus: </i></strong>ISO 19115 Topic Category</dt>
+<dt>
+<strong><i>Theme_Keyword: </i></strong>geoscientificInformation</dt>
+<dt>
+<strong><i>Theme_Keyword: </i></strong>inlandWaters</dt>
+<dt>
+<strong><i>Theme_Keyword: </i></strong>environment</dt>
+</dl></dd>
+<dt><strong><i>Place: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Place_Keyword_Thesaurus: </i></strong>Geographic Names Information System</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>United States</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>All 50 states</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Alabama</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Alaska</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Arizona</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Arkansas</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>California</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Colorado</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Connecticut</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Delaware</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>District of Columbia</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Florida</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Georgia</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Hawaii</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Idaho</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Illinois</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Indiana</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Iowa</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Kansas</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Kentucky</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Louisiana</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Maine</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Maryland</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Massachusetts</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Michigan</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Minnesota</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Mississippi</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Missouri</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Montana</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Nebraska</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Nevada</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>New Hampshire</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>New Jersey</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>New Mexico</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>New York</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>North Carolina</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>North Dakota</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Ohio</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Oklahoma</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Oregon</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Pennsylvania</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Puerto Rico</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Rhode Island</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>South Carolina</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>South Dakota</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Tennessee</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Texas</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Utah</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Vermont</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Virginia</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Washington</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>West Virginia</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Wisconsin</dt>
+<dt>
+<strong><i>Place_Keyword: </i></strong>Wyoming</dt>
+</dl></dd>
+</dl></dd>
+<dt>
+<strong><i>Access_Constraints: </i></strong>None</dt>
+<div>
+<dt><strong><i>Use_Constraints: </i></strong></dt>The classification assigned in this project (reference or non-reference) was based on our 
+semi-quantitative evaluation of the criteria described in the report, which included both 
+quantitative and qualitative data. Our classification is intended as the best identification 
+of reference-quality sites that we could perform given the limitations of national-scale data, 
+and within the context of the regions we used. It was believed that the deficiencies of 
+national-scale GIS data, which do not capture small diversions, dams or groundwater 
+pumping particularly well, would be supplemented by an examination of ADR remarks 
+and visual examination of every watershed from high-resolution imagery. It is possible 
+that users with localized knowledge may be able to perform a better classification for 
+specific areas. Users of these data should be attentive to potential differences between 
+reference and non-reference gages - for example, watershed size (median size of reference 
+gages = 212 sq km; of non-reference gages = 587 sq km).  We also note that it would be 
+possible to use the data posted here to identify a different, but equally valid, set of 
+reference-quality stream gages for other purposes, based on other regions, or which place 
+greater emphasis on specific anthropogenic activities or variables (e.g., urbanization), and 
+that the classification presented here is not intended to be definitive.
+	   
+Any use of trade, product, or firm names is for descriptive purposes only and does not imply 
+endorsement by the U.S. Government.
+		
+Although this Federal Geographic Data Committee-compliant metadata file is intended to 
+document the data set in nonproprietary form, as well as in ArcInfo format, this metadata file 
+may include some ArcInfo-specific terminology.</div>
+<dt>
+<strong><i>Point_of_Contact: </i></strong> 
+(Warning: Although accurate at the time of production, this information may have become obsolete. 
+           
+</dt>
+<dt>           
+           See the <a href="#Metadata_Reference_Information"><strong><i>Metadata_Reference_Information</i></strong></a> 
+           section for a current contact.)</dt>
+<dd><dl>
+<dt><strong><i>Contact_Information: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Contact_Person_Primary: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Contact_Person: </i></strong>James Falcone</dt>
+<dt>
+<strong><i>Contact_Organization: </i></strong>U.S. Geological Survey</dt>
+</dl></dd>
+<dt>
+<strong><i>Contact_Position: </i></strong>Physical Scientist</dt>
+<dt><strong><i>Contact_Address: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Address_Type: </i></strong>mailing address</dt>
+<div>
+<dt><strong><i>Address: </i></strong></dt>413 National Center</div>
+<dt>
+<strong><i>City: </i></strong>Reston</dt>
+<dt>
+<strong><i>State_or_Province: </i></strong>Virginia</dt>
+<dt>
+<strong><i>Postal_Code: </i></strong>20192</dt>
+<dt>
+<strong><i>Country: </i></strong>USA</dt>
+</dl></dd>
+<dt>
+<strong><i>Contact_Voice_Telephone: </i></strong>703-648-5008</dt>
+<dt>
+<strong><i>Contact_Electronic_Mail_Address: </i></strong><a target="viewer" href="mailto:jfalcone@usgs.gov">jfalcone@usgs.gov</a>
+</dt>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Browse_Graphic: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Browse_Graphic_File_Name: </i></strong><a target="viewer" href="https://water.usgs.gov/GIS/browse/gagesII.jpg">https://water.usgs.gov/GIS/browse/gagesII.jpg</a>
+</dt>
+<dt><strong><i>Browse_Graphic_File_Description: </i></strong></dt>
+<dd>Illustration of the dataset</dd>
+<dt>
+<strong><i>Browse_Graphic_File_Type: </i></strong>jpg</dt>
+</dl></dd>
+<div>
+<dt><strong><i>Data_Set_Credit: </i></strong></dt>The original 
+conception and rationale for creating GAGES is from Daren Carlisle, 
+David Wolock, and Michael Meador, of the USGS.  In its assembly, we 
+gratefully recognize the tremendous work done by Lisa Weber, Kelly Ruhl,
+ Chris Hill, and Michael Wieczorek, as well as the helpful colleague 
+reviews provided by Al Rea, Ken Eng, Silvia Terziotti, and Kerie Hitt, 
+all of the USGS, and of three journal reviewers from the journal Ecology
+ for the original data. We also acknowledge the invaluable input from 
+our colleagues at USGS Water Science Centers: Delwyn Oki in Hawaii, 
+Jackie McIntire and David Meyer in Alaska, and Marilyn Santiago and 
+Heriberto Torres-Sierra in Puerto Rico.  We also acknowledge the USGS 
+EDNA program, for assistance and guidance on basin delineation methods, 
+particularly Sandra Poppenga, Susan Greenlee, and Bruce Worstell.</div>
+<dt><strong><i>Security_Information: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Security_Classification_System: </i></strong>None</dt>
+<dt>
+<strong><i>Security_Classification: </i></strong>Unclassified</dt>
+<dt>
+<strong><i>Security_Handling_Description: </i></strong>None</dt>
+</dl></dd>
+<dt><strong><i>Native_Data_Set_Environment: </i></strong></dt>
+<dd>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</dd>
+</dl></dd>
+</dl>
+<a href="#Top">Back to Top</a><a name="Data_Quality_Information"><hr></a><dl>
+<dt><strong><i>Data_Quality_Information: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Attribute_Accuracy: </i></strong></dt>
+<dd><dl><div>
+<dt><strong><i>Attribute_Accuracy_Report: </i></strong></dt>Source data 
+was checked using standard USGS review procedures. Attributes were 
+checked by plotting the coverage and reselecting for the different 
+values.</div></dl></dd>
+<div>
+<dt><strong><i>Logical_Consistency_Report: </i></strong></dt>data was reviewed throught the official USGS review process</div>
+<div>
+<dt><strong><i>Completeness_Report: </i></strong></dt>complete</div>
+<dt><strong><i>Lineage: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Process_Step: </i></strong></dt>
+<dd><dl>
+<div>
+<dt><strong><i>Process_Description: </i></strong></dt>
+<pre id="" style="margin-left: 0.42in;">The geospatial data include 
+several hundred watershed characteristics compiled from national data 
+sources, including environmental features (e.g. climate – including 
+historical precipitation, geology, soils, topography) and anthropogenic 
+influences (e.g. land use, road density, presence of dams, canals, or 
+power plants). The dataset also includes comments from local USGS Water 
+Science Centers, based on Annual Data Reports, pertinent to hydrologic 
+modifications and influences. The data posted also include watershed 
+boundaries in GIS format. </pre>
+<script>fix(original)</script><dd>The geospatial data include several 
+hundred watershed characteristics compiled from national data sources, 
+including environmental features (e.g. climate – including historical 
+precipitation, geology, soils, topography) and anthropogenic influences 
+(e.g. land use, road density, presence of dams, canals, or power 
+plants). The dataset also includes comments from local USGS Water 
+Science Centers, based on Annual Data Reports, pertinent to hydrologic 
+modifications and influences. The data posted also include watershed 
+boundaries in GIS format. </dd>
+</div>
+<dt>
+<strong><i>Process_Date: </i></strong>2011</dt>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+</dl>
+<a href="#Top">Back to Top</a><a name="Spatial_Data_Organization_Information"><hr></a><dl>
+<dt><strong><strong><i>Spatial_Data_Organization_Information: </i></strong></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Direct_Spatial_Reference_Method: </i></strong>Vector</dt>
+<dt><strong><i>Point_and_Vector_Object_Information: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>SDTS_Terms_Description: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>SDTS_Point_and_Vector_Object_Type: </i></strong>Entity point</dt>
+<dt>
+<strong><i>Point_and_Vector_Object_Count: </i></strong>9322</dt>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+</dl>
+<a href="#Top">Back to Top</a><a name="Spatial_Reference_Information"><hr></a><dl>
+<dt><strong><strong><i>Spatial_Reference_Information: </i></strong></strong></dt>
+<dd><dl>
+<dt><strong><i>Horizontal_Coordinate_System_Definition: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Planar: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Map_Projection: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Map_Projection_Name: </i></strong>NAD 1983 Albers</dt>
+<dt><strong><i>Albers_Conical_Equal_Area: </i></strong></dt>NAD 1983 Albers<dd><dl>
+<dt>
+<strong><i>Standard_Parallel: </i></strong>29.5</dt>
+<dt>
+<strong><i>Standard_Parallel: </i></strong>45.5</dt>
+<dt>
+<strong><i>Longitude_of_Central_Meridian: </i></strong>-96.0</dt>
+<dt>
+<strong><i>Latitude_of_Projection_Origin: </i></strong>23.0</dt>
+<dt>
+<strong><i>False_Easting: </i></strong>0.0</dt>
+<dt>
+<strong><i>False_Northing: </i></strong>0.0</dt>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Planar_Coordinate_Information: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Planar_Coordinate_Encoding_Method: </i></strong>coordinate pair</dt>
+<dt><strong><i>Coordinate_Representation: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Abscissa_Resolution: </i></strong>0.0000000037527980722984474</dt>
+<dt>
+<strong><i>Ordinate_Resolution: </i></strong>0.0000000037527980722984474</dt>
+</dl></dd>
+<dt>
+<strong><i>Planar_Distance_Units: </i></strong>Meter</dt>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Geodetic_Model: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Horizontal_Datum_Name: </i></strong>D North American 1983</dt>
+<dt>
+<strong><i>Ellipsoid_Name: </i></strong>GRS 1980</dt>
+<dt>
+<strong><i>Semi-major_Axis: </i></strong>6378137.0</dt>
+<dt>
+<strong><i>Denominator_of_Flattening_Ratio: </i></strong>298.257222101</dt>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+</dl>
+<a href="#Top">Back to Top</a><a name="Entity_and_Attribute_Information"><hr></a><dl>
+<dt><strong><strong><i>Entity_and_Attribute_Information: </i></strong></strong></dt>
+<dd><dl>
+<dt><strong><i>Detailed_Description: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Entity_Type: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Entity_Type_Label: </i></strong>gagesII_9322_sept30_2011</dt>
+<dt><strong><i>Entity_Type_Definition: </i></strong></dt>
+<dd>Point attribute table</dd>
+<dt><strong><i>Entity_Type_Definition_Source: </i></strong></dt>
+<dd>Automatically created</dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>FID</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Internal feature number.</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>ESRI</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>Sequential unique whole numbers that are automatically generated.</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>Shape</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Feature geometry.</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>ESRI</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>Coordinates defining the features.</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>STAID</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Station ID</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>USGS NWIS</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>number</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>STANAME</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Station Name</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>USGS NWIS</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>48 states</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>CLASS</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Classification (Ref or Non-ref)</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>classification</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>Ref or Non-Ref</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>AGGECOREGI</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Aggregated ecoregion</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>ecoregion</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>ecoregion value</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>DRAIN_SQKM</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Drainage area, sq km</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>drainage area</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>square kilometers</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>HUC02</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Hydrologic Unit Code, 2-digit</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>HUC</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>1-21 regions</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>LAT_GAGE</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Latitude, decimal degrees</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>Latitude</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>decimal degrees</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>LNG_GAGE</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Longitude, decimal degrees</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>Longitude</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>decimal degrees</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>STATE</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>State at gage location</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>State</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>48 state names</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>HCDN_2009</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>If gage is part of HCDN-2009</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>HCDN</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>HCDN </dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>ACTIVE09</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>If gage active in water year 2009</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>active</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>2009</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>FLYRS1900</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Number of complete years of flow data between 1900 and 2009</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>complete years</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>1900-2009</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>FLYRS1950</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Number of complete years of flow data between 1950 and 2009</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>complete years of flow data</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd> 1950, 2009</dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Attribute: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Attribute_Label: </i></strong>FLYRS1990</dt>
+<div>
+<dt><strong><i>Attribute_Definition: </i></strong></dt>Number of complete years of flow data between 1990 and 2009</div>
+<div>
+<dt><strong><i>Attribute_Definition_Source: </i></strong></dt>complete years of flow data</div>
+<dt><strong><i>Attribute_Domain_Values: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Unrepresentable_Domain: </i></strong></dt>
+<dd>1990, 2009</dd>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+</dl>
+<a href="#Top">Back to Top</a><a name="idm1145273040"><hr></a><a name="Distribution"></a><dl>
+<dt><strong><strong><i>Distribution_Information: </i></strong></strong></dt>
+<dd><dl>
+<dt><strong><i>Distributor: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Contact_Information: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Contact_Organization_Primary: </i></strong></dt>
+<dd><dl><dt>
+<strong><i>Contact_Organization: </i></strong>U.S. Geological Survey</dt></dl></dd>
+<dt>
+<strong><i>Contact_Position: </i></strong>Ask USGS - Water Webserver Team</dt>
+<dt><strong><i>Contact_Address: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Address_Type: </i></strong>mailing</dt>
+<div>
+<dt><strong><i>Address: </i></strong></dt>445 National Center</div>
+<dt>
+<strong><i>City: </i></strong>Reston</dt>
+<dt>
+<strong><i>State_or_Province: </i></strong>VA</dt>
+<dt>
+<strong><i>Postal_Code: </i></strong>20192</dt>
+</dl></dd>
+<dt>
+<strong><i>Contact_Voice_Telephone: </i></strong>1-888-275-8747 (1-888-ASK-USGS)</dt>
+<dt>
+<strong><i>Contact_Electronic_Mail_Address: </i></strong><a target="viewer" href="https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+gagesII_Sept2011">https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+gagesII_Sept2011</a>
+</dt>
+</dl></dd>
+</dl></dd>
+<dt>
+<strong><i>Resource_Description: </i></strong>Downloadable Data</dt>
+<div>
+<dt><strong><i>Distribution_Liability: </i></strong></dt>
+<pre id="" style="margin-left: 0.42in;">Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+			
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</pre>
+<script>fix(original)</script>
+</div>
+<table width="250" border="3" align="right"><tbody><tr><td>
+<strong><a name="stdorder"></a>How To Get the Data</strong><p><strong><i>Standard_Order_Process</i></strong> describes the file formats that are available for downloading.
+       One or more data downloads may be available.</p>
+<p>For best results download files by right-click/save to disk in your browser.
+        <a href="https://water.usgs.gov/GIS/metadata/usgswrd/guide.html" target="window_new">(See guidance on file formats.)</a></p>
+<p><font color="#FF0000"><strong>Save this file to a disk.</strong></font></p>
+</td></tr></tbody></table>
+<dt><strong><i>Standard_Order_Process: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Digital_Form: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Digital_Transfer_Information: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Format_Name: </i></strong>Shape file</dt>
+<div>
+<dt><strong><i>Format_Information_Content: </i></strong></dt>Point shape file of gage locations</div>
+<dt>
+<strong><i>File_Decompression_Technique: </i></strong>zipped</dt>
+<dt>
+<strong><i>Transfer_Size: </i></strong>0.7</dt>
+</dl></dd>
+<dt><strong><i>Digital_Transfer_Option: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Online_Option: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Computer_Contact_Information: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Network_Address: </i></strong></dt>
+<dd><dl><dt>
+<strong><i>Network_Resource_Name: </i></strong><a target="viewer" href="https://water.usgs.gov/GIS/dsdl/gagesII_9322_point_shapefile.zip">https://water.usgs.gov/GIS/dsdl/gagesII_9322_point_shapefile.zip</a>
+</dt></dl></dd>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Digital_Form: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Digital_Transfer_Information: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Format_Name: </i></strong>Excel, Word, and csv</dt>
+<div>
+<dt><strong><i>Format_Information_Content: </i></strong></dt>Basin characteristics and update report</div>
+<dt>
+<strong><i>File_Decompression_Technique: </i></strong>zipped</dt>
+<dt>
+<strong><i>Transfer_Size: </i></strong>53.9</dt>
+</dl></dd>
+<dt><strong><i>Digital_Transfer_Option: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Online_Option: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Computer_Contact_Information: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Network_Address: </i></strong></dt>
+<dd><dl><dt>
+<strong><i>Network_Resource_Name: </i></strong><a target="viewer" href="https://water.usgs.gov/GIS/dsdl/basinchar_and_report_sept_2011.zip">https://water.usgs.gov/GIS/dsdl/basinchar_and_report_sept_2011.zip</a>
+</dt></dl></dd>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Digital_Form: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Digital_Transfer_Information: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Format_Name: </i></strong>Shape file</dt>
+<div>
+<dt><strong><i>Format_Information_Content: </i></strong></dt>Basin boundaries in .shp file format</div>
+<dt>
+<strong><i>File_Decompression_Technique: </i></strong>zipped</dt>
+<dt>
+<strong><i>Transfer_Size: </i></strong>200.0</dt>
+</dl></dd>
+<dt><strong><i>Digital_Transfer_Option: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Online_Option: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Computer_Contact_Information: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Network_Address: </i></strong></dt>
+<dd><dl><dt>
+<strong><i>Network_Resource_Name: </i></strong><a target="viewer" href="https://water.usgs.gov/GIS/dsdl/boundaries_shapefiles_by_aggeco.zip">https://water.usgs.gov/GIS/dsdl/boundaries_shapefiles_by_aggeco.zip</a>
+</dt></dl></dd>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+<dt><strong><i>Digital_Form: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Digital_Transfer_Information: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Format_Name: </i></strong>Coverage</dt>
+<div>
+<dt><strong><i>Format_Information_Content: </i></strong></dt>Mainstem line coverages</div>
+<dt>
+<strong><i>File_Decompression_Technique: </i></strong>zipped</dt>
+<dt>
+<strong><i>Transfer_Size: </i></strong> 87.0</dt>
+</dl></dd>
+<dt><strong><i>Digital_Transfer_Option: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Online_Option: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Computer_Contact_Information: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Network_Address: </i></strong></dt>
+<dd><dl><dt>
+<strong><i>Network_Resource_Name: </i></strong><a target="viewer" href="https://water.usgs.gov/GIS/dsdl/mainstem_line_covers.zip">https://water.usgs.gov/GIS/dsdl/mainstem_line_covers.zip</a>
+</dt></dl></dd>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+</dl></dd>
+<dt>
+<strong><i>Fees: </i></strong>None. This dataset is provided by USGS as a public service.</dt>
+</dl></dd>
+</dl></dd>
+</dl>
+<a href="#Top">Back to Top</a><a name="Metadata_Reference_Information"><hr></a><dl>
+<dt><strong><strong><i>Metadata_Reference_Information: </i></strong></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Metadata_Date: </i></strong>20110131</dt>
+<dt><strong><i>Metadata_Contact: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Contact_Information: </i></strong></dt>
+<dd><dl>
+<dt><strong><i>Contact_Organization_Primary: </i></strong></dt>
+<dd><dl><dt>
+<strong><i>Contact_Organization: </i></strong>U.S. Geological Survey</dt></dl></dd>
+<dt>
+<strong><i>Contact_Position: </i></strong>Ask USGS -- Water Webserver Team</dt>
+<dt><strong><i>Contact_Address: </i></strong></dt>
+<dd><dl>
+<dt>
+<strong><i>Address_Type: </i></strong>mailing address</dt>
+<div>
+<dt><strong><i>Address: </i></strong></dt>445 National Center</div>
+<dt>
+<strong><i>City: </i></strong>Reston</dt>
+<dt>
+<strong><i>State_or_Province: </i></strong>VA</dt>
+<dt>
+<strong><i>Postal_Code: </i></strong>20192</dt>
+</dl></dd>
+<dt>
+<strong><i>Contact_Voice_Telephone: </i></strong>1-888-275-8747 (1-888-ASK-USGS)</dt>
+<dt>
+<strong><i>Contact_Electronic_Mail_Address: </i></strong><a target="viewer" href="https://water.usgs.gov/user_feedback_form.html">https://water.usgs.gov/user_feedback_form.html</a>
+</dt>
+</dl></dd>
+</dl></dd>
+<dt>
+<strong><i>Metadata_Standard_Name: </i></strong>FGDC Content Standards for Digital Geospatial Metadata</dt>
+<dt>
+<strong><i>Metadata_Standard_Version: </i></strong>FGDC-STD-001-1998</dt>
+</dl></dd>
+</dl>
+<a href="#Top">Back to Top</a><br><br><br><font color="#6495ED">Metadata stylesheet adapted from stylesheets provided courtesy of ESRI and NOAA.  
+    The original style sheets of ESRI are copyright (c) 2000-2002, Environmental Systems Research Institute, Inc.  
+    All rights reserved.
+    This stylesheet is not intended for use with non-USGS datasets.</font><hr>
+<div id="usgsfooter">
+<p id="usgsfooterbar"><a href="https://www.usgs.gov/accessibility.html" title="Accessibility Policy (Section 508)">Accessibility</a> |
+		<a href="https://www.usgs.gov/foia/" title="Freedom of Information Act">FOIA</a> |
+		<a href="https://www.usgs.gov/privacy.html" title="Privacy policies of the U.S. Geological Survey.">Privacy</a> |
+		<a href="https://www.usgs.gov/policies_notices.html" title="Policies and notices that govern information posted on USGS Web sites.">Policies and Notices</a></p>
+<hr>
+<p id="usgsfootertext"><a href="https://usagov.gov/"><img src="footer_graphic_firstGov.jpg" alt="USAGov logo" title="USAGov; Government Made Easy" style="border: none; float: right; margin-right: 10px;" width="90" height="26"></a><font size="-2"><a href="https://www.doi.gov/">U.S. Department of the Interior</a><br><a href="https://www.usgs.gov/">U.S. Geological Survey</a><br>
+		Page Contact Information: <a href="mailto:mierardi@usgs.gov">Webmaster</a><br>
+		Page Last Modified: March 2020</font></p>
+</div>
+
+</body></html>

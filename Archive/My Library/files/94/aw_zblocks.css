@@ -1,0 +1,10 @@
+.zblock img {
+    display: inline;
+}
+.zblock-slider img {
+    display: inline;
+}
+
+.zblock-item {
+    overflow: hidden;
+}

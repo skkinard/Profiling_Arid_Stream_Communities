@@ -1,0 +1,55 @@
+﻿site.code,site.full.name,USGS.gauge,latitude,longitude,datum,date.collection,kingdom,phylum,class,order,family,genus,species,count
+AR,"Aransas River nr Skidmore, TX", 08189700,"28°16'56""","97°37'14""",NAD27,3/14/2017,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Cyprinella,C.lutrensis,27
+AR,"Aransas River nr Skidmore, TX", 08189700,"28°16'56""","97°37'14""",NAD27,3/14/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.macrochirus,5
+AR,"Aransas River nr Skidmore, TX", 08189700,"28°16'56""","97°37'14""",NAD27,3/14/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.auritis,3
+AR,"Aransas River nr Skidmore, TX", 08189700,"28°16'56""","97°37'14""",NAD27,3/14/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.megalotis,3
+AR,"Aransas River nr Skidmore, TX", 08189700,"28°16'56""","97°37'14""",NAD27,3/14/2017,Animalia,Chordata,Actinopterygii,Perciformes,Cichlidae,Cichlasoma,C.cyanoguttatum,1
+BBW,"Bear Br at Research Blvd, The Woodlands, TX",08068390 ,"30°11'26""","95°29'28""",NAD27,3/13/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.macrochirus,6
+BBW,"Bear Br at Research Blvd, The Woodlands, TX",08068390 ,"30°11'26""","95°29'28""",NAD27,3/13/2017,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Pimephales,P.vigilax,5
+BBW,"Bear Br at Research Blvd, The Woodlands, TX",08068390 ,"30°11'26""","95°29'28""",NAD27,3/13/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.microlophus,4
+BBW,"Bear Br at Research Blvd, The Woodlands, TX",08068390 ,"30°11'26""","95°29'28""",NAD27,3/13/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.gulosus,3
+BBW,"Bear Br at Research Blvd, The Woodlands, TX",08068390 ,"30°11'26""","95°29'28""",NAD27,3/13/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Fundulidae,Fundulus,F.notatus,3
+BBW,"Bear Br at Research Blvd, The Woodlands, TX",08068390 ,"30°11'26""","95°29'28""",NAD27,3/13/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Gambusia,G.affinis,1
+BBW,"Bear Br at Research Blvd, The Woodlands, TX",08068390 ,"30°11'26""","95°29'28""",NAD27,3/13/2017,Animalia,Chordata,Actinopterygii,Percopsiformes,Aphredoderidae,Aphredoderus,A.sayanus,1
+BC,"Big Ck nr Needville, TX",08115000,"29°28'18""","95°48'10""",NAD27,3/14/2017,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Pimephales,P.vigilax,14
+BC,"Big Ck nr Needville, TX",08115000,"29°28'18""","95°48'10""",NAD27,3/14/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.megalotis,4
+BC,"Big Ck nr Needville, TX",08115000,"29°28'18""","95°48'10""",NAD27,3/14/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.gulosus,1
+BC,"Big Ck nr Needville, TX",08115000,"29°28'18""","95°48'10""",NAD27,3/14/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.marginatus,1
+CC,"Coleto Ck nr Victoria, TX",08164600,"28°53'28""","96°49'08""",NAD27,3/14/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.cyanellus,2
+GC,"Garcitas Ck nr Inez, TX",08164600,"28°53'28""","96°49'08""",NAD27,4/12/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Gambusia,G.affinis,31
+GC,"Garcitas Ck nr Inez, TX",08164600,"28°53'28""","96°49'08""",NAD27,4/12/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.humilis,16
+GC,"Garcitas Ck nr Inez, TX",08164600,"28°53'28""","96°49'08""",NAD27,4/12/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.microlophus,2
+MC,"Medio Ck nr Beeville, TX",08189300,"28°28'58""","97°39'23""",NAD27,3/12/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.humilis,11
+MC,"Medio Ck nr Beeville, TX",08189300,"28°28'58""","97°39'23""",NAD27,3/12/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Gambusia,G.affinis,11
+MC,"Medio Ck nr Beeville, TX",08189300,"28°28'58""","97°39'23""",NAD27,3/12/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.macrochirus,1
+MC,"Medio Ck nr Beeville, TX",08189300,"28°28'58""","97°39'23""",NAD27,3/12/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.gulosus,1
+MR,"Mission Rv at Refugio, TX",08189500,"28°17'30""","97°16'44""",NAD27,4/2/2017,Animalia,Chordata,Actinopterygii,Perciformes,Cichlidae,Herichthys,H.cyanoguttatus,1
+MR,"Mission Rv at Refugio, TX",08189500,"28°17'30""","97°16'44""",NAD27,4/2/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.microlophus,1
+MR,"Mission Rv at Refugio, TX",08189500,"28°17'30""","97°16'44""",NAD27,4/2/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.megalotis,1
+MR,"Mission Rv at Refugio, TX",08189500,"28°17'30""","97°16'44""",NAD27,4/2/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.macrochirus,1
+MR,"Mission Rv at Refugio, TX",08189500,"28°17'30""","97°16'44""",NAD27,4/2/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Gambusia,G.affinis,1
+MR,"Mission Rv at Refugio, TX",08189500,"28°17'30""","97°16'44""",NAD27,4/2/2017,Animalia,Chordata,Actinopterygii,Perciformes,Percidae,Etheostoma,E.gracile,1
+OSO,"Oso Ck at Corpus Christi, TX",08211520,"27°42'40""","97°30'06""",NAD27,4/2/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Gambusia,G.affinis,7
+OSO,"Oso Ck at Corpus Christi, TX",08211520,"27°42'40""","97°30'06""",NAD27,4/2/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Poecilia,P.formosa,1
+PBW,"Panther Br nr Spring, TX",08068450,"30°08'03""","95°28'39""",NAD27,3/13/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.auritis,14
+PBW,"Panther Br nr Spring, TX",08068450,"30°08'03""","95°28'39""",NAD27,3/13/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.megalotis,3
+PBW,"Panther Br nr Spring, TX",08068450,"30°08'03""","95°28'39""",NAD27,3/13/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.macrochirus,2
+PDC,"Panther Br nr Spring, TX",08068450,"30°08'03""","95°28'39""",NAD27,3/12/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.cyanellus,3
+PDC,"Perdido Ck at FM 622 nr Fannin, TX",08177300,"28°45'05""","97°19'01""",NAD27,3/12/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.microlophus,3
+PDC,"Perdido Ck at FM 622 nr Fannin, TX",08177300,"28°45'05""","97°19'01""",NAD27,3/12/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.macrochirus,1
+PDC,"Perdido Ck at FM 622 nr Fannin, TX",08177300,"28°45'05""","97°19'01""",NAD27,3/12/2017,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.auritis,1
+PDC,"Perdido Ck at FM 622 nr Fannin, TX",08177300,"28°45'05""","97°19'01""",NAD27,3/12/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Fundulidae,Fundulus,F.notatus,1
+PDC,"Perdido Ck at FM 622 nr Fannin, TX",08177300,"28°45'05""","97°19'01""",NAD27,3/12/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Gambusia,G.affinis,1
+PLC,"Placedo Ck nr Placedo, TX",008164800,"28°43'30""","96°46'07""",NAD27,4/2/2016,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Cyprinella,C.lutrensis,67
+PLC,"Placedo Ck nr Placedo, TX",008164800,"28°43'30""","96°46'07""",NAD27,4/2/2016,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Gambusia,G.affinis,6
+PLC,"Placedo Ck nr Placedo, TX",008164800,"28°43'30""","96°46'07""",NAD27,4/2/2016,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.microlophus,4
+PLC,"Placedo Ck nr Placedo, TX",008164800,"28°43'30""","96°46'07""",NAD27,4/2/2016,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.macrochirus,2
+PLC,"Placedo Ck nr Placedo, TX",008164800,"28°43'30""","96°46'07""",NAD27,4/2/2016,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.humilis,2
+PLC,"Placedo Ck nr Placedo, TX",008164800,"28°43'30""","96°46'07""",NAD27,4/2/2016,Animalia,Chordata,Actinopterygii,Perciformes,Gobiidae,Ctenogobius,C.shufeldti,2
+PLC,"Placedo Ck nr Placedo, TX",008164800,"28°43'30""","96°46'07""",NAD27,4/2/2016,Animalia,Chordata,Actinopterygii,Perciformes,Centrarchidae,Lepomis,L.cyanellus,2
+PLC,"Placedo Ck nr Placedo, TX",008164800,"28°43'30""","96°46'07""",NAD27,4/2/2016,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Achiridae,Trinectes,T.maculatus,1
+PLC,"Placedo Ck nr Placedo, TX",008164800,"28°43'30""","96°46'07""",NAD27,4/2/2017,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Pimephales,P.vigilax,3
+SFC,"San Fernando Ck at Alice, TX",08211900,"27°46'20""","98°02'00""",NAD27,3/6/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Gambusia,G.affinis,41
+TRC,"San Fernando Ck at Alice, TX",08211900,"27°46'20""","98°02'00""",NAD27,3/22/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Gambusia,G.affinis,8
+TRC,"Tranquitas Ck at Kingsville, TX",08212300,"27°31'33""","97°52'02""",NAD27,3/22/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Poeciliidae,Poecilia,P.formosa,2
+TRC,"Tranquitas Ck at Kingsville, TX",08212300,"27°31'33""","97°52'02""",NAD27,3/22/2017,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Cyprinodontidae,Cyprinodon,C.variegatus,2

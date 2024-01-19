@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style="" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<link rel="stylesheet" href="jquery.css">
+<link href="font-awesome.css" rel="stylesheet">
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<link rel="shortcut icon" href="https://repositories.lib.utexas.edu/themes/Mirage2/images/favicon.ico">
+<link rel="apple-touch-icon" href="https://repositories.lib.utexas.edu/themes/Mirage2/images/apple-touch-icon.png">
+<meta name="Generator" content="DSpace 6.4-SNAPSHOT">
+<link href="main.css" rel="stylesheet">
+<link href="custom.css" rel="stylesheet">
+<link type="application/opensearchdescription+xml" rel="search" href="https://repositories.lib.utexas.edu/open-search/description.xml" title="DSpace">
+<script async="" src="analytics.js"></script><script>
+                //Clear default text of empty text areas on focus
+                function tFocus(element)
+                {
+                if (element.value == ' '){element.value='';}
+                }
+                //Clear default text of empty text areas on submit
+                function tSubmit(form)
+                {
+                var defaultedElements = document.getElementsByTagName("textarea");
+                for (var i=0; i != defaultedElements.length; i++){
+                if (defaultedElements[i].value == ' '){
+                defaultedElements[i].value='';}}
+                }
+                //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                function disableEnterKey(e)
+                {
+                var key;
+
+                if(window.event)
+                key = window.event.keyCode;     //Internet Explorer
+                else
+                key = e.which;     //Firefox and Netscape
+
+                if(key == 13)  //if "Enter" pressed, then disable!
+                return false;
+                else
+                return true;
+                }
+            </script><!--[if lt IE 9]>
+                <script src="/themes/Mirage2/vendor/html5shiv/dist/html5shiv.js"> </script>
+                <script src="/themes/Mirage2/vendor/respond/dest/respond.min.js"> </script>
+                <![endif]--><script src="modernizr.js"> </script>
+<title>An Annotated Checklist of the Freshwater Fishes of Texas, with Keys to Identification of Species, 2nd Edition</title>
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+<meta name="DC.creator" content="Hubbs, Clark" xml:lang="en">
+<meta name="DC.creator" content="Edwards, Robert J." xml:lang="en">
+<meta name="DC.creator" content="Garrett, Gary P." xml:lang="en">
+<meta name="DCTERMS.dateAccepted" content="2009-06-26T17:57:24Z" xml:lang="en" scheme="DCTERMS.W3CDTF">
+<meta name="DCTERMS.available" content="2009-06-26T17:57:24Z" xml:lang="en" scheme="DCTERMS.W3CDTF">
+<meta name="DCTERMS.issued" content="2008-07" xml:lang="en" scheme="DCTERMS.W3CDTF">
+<meta name="DCTERMS.bibliographicCitation" content="Hubbs, C., R.J. Edwards, and G.P. Garrett.  2008.  An Annotated Checklist of the Freshwater Fishes of Texas, with Keys to Identification of Species, 2nd Edition.  Texas Academy of Science." xml:lang="en">
+<meta name="DC.identifier" content="http://hdl.handle.net/2152/6290" xml:lang="en" scheme="DCTERMS.URI">
+<meta name="DCTERMS.abstract" content="Forty-nine families and 268 species of fishes are known to inhabit the freshwaters of Texas. We report on the distribution and status of these fishes and provide a key to their identification. Of the native fishes originally found in Texas, five taxa, Cyprinella lutrensis blairi (Maravillas red shiner), Notropis orca (phantom shiner), N. simus simus (Rio Grande bluntnose shiner), Gambusia amistadensis (Amistad gambusia) and G. georgei (San Marcos gambusia) are apparently extinct, and four, Hybognathus amarus (Rio Grande silvery minnow), Notropis simus pecosensis (Pecos bluntnose shiner), Oncorhynchus clarki virginalis (Rio Grande cutthroat trout) and Gambusia senilis (blotched gambusia) appear to be extirpated from the state. Over 40 percent of the remaining primary freshwater species are of conservation concern and in some need of protection." xml:lang="en">
+<meta name="DC.description" content="University of Texas at Austin, University of Texas - Pan American, Texas Parks and Wildlife Department" xml:lang="en">
+<meta name="DC.language" content="eng" xml:lang="en" scheme="DCTERMS.RFC1766">
+<meta name="DC.publisher" content="Texas Academy of Science" xml:lang="en">
+<meta name="DC.subject" content="fishes" xml:lang="en">
+<meta name="DC.subject" content="freshwater" xml:lang="en">
+<meta name="DC.subject" content="checklist" xml:lang="en">
+<meta name="DC.subject" content="Hubbs" xml:lang="en">
+<meta name="DC.subject" content="Texas" xml:lang="en">
+<meta name="DC.subject" content="fish distribution" xml:lang="en">
+<meta name="DC.subject" content="dichotomous keys" xml:lang="en">
+<meta name="DC.title" content="An Annotated Checklist of the Freshwater Fishes of Texas, with Keys to Identification of Species, 2nd Edition" xml:lang="en">
+<meta name="DC.type" content="Other" xml:lang="en">
+<meta name="DC.description" content="Civil, Architectural, and Environmental Engineering" xml:lang="en">
+<meta content="fishes; freshwater; checklist; Hubbs; Texas; fish distribution; dichotomous keys; Other" name="citation_keywords">
+<meta content="An Annotated Checklist of the Freshwater Fishes of Texas, with Keys to Identification of Species, 2nd Edition" name="citation_title">
+<meta content="Texas Academy of Science" name="citation_publisher">
+<meta content="eng" name="citation_language">
+<meta content="Hubbs, Clark" name="citation_author">
+<meta content="Edwards, Robert J." name="citation_author">
+<meta content="Garrett, Gary P." name="citation_author">
+<meta content="https://repositories.lib.utexas.edu/bitstream/2152/6290/2/Hubbs_et_al_2008_checklist.pdf" name="citation_pdf_url">
+<meta content="2008-07" name="citation_date">
+<meta content="https://repositories.lib.utexas.edu/handle/2152/6290" name="citation_abstract_html_url">
+</head><body>
+<header>
+<div role="navigation" class="navbar navbar-default navbar-static-top">
+<div class="row">
+<div class="col-xs-12 col-sm-12 hidden-xs hidden-sm">
+<div class="navbar-brand-orange-bottom">
+<div class="container">
+<div class="ut-core-link pull-right">
+<a href="https://www.utexas.edu/" class="block-link"><span class="visuallyhidden"></span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="navbar-header">
+<button data-toggle="offcanvas" class="navbar-toggle" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="https://repositories.lib.utexas.edu/"><img alt="TexasScholarWorks" src="UT_Lib_RGB_inf_brand_b2_Texas_ScholarWorks.svg"></a>
+<div class="navbar-header pull-right visible-xs hidden-sm hidden-md hidden-lg">
+<ul class="nav nav-pills pull-left ">
+<li>
+<form method="get" action="/login" style="display: inline">
+<button class="navbar-toggle navbar-link"><b aria-hidden="true" class="visible-xs glyphicon glyphicon-user"></b></button>
+</form>
+</li>
+<li>
+<form method="get" action="/submit" style="display: inline">
+<button class="navbar-toggle navbar-link"><b aria-hidden="true" class="visible-xs glyphicon glyphicon-file"></b></button>
+</form>
+</li>
+</ul>
+</div>
+</div>
+<div class="navbar-header pull-right hidden-xs">
+<ul class="nav navbar-nav pull-left"></ul>
+<ul class="nav navbar-nav pull-left">
+<li>
+<a href="https://repositories.lib.utexas.edu/login"><span class="hidden-xs">Login</span></a>
+</li>
+<li>
+<a href="https://repositories.lib.utexas.edu/submit">Submit</a>
+</li>
+</ul>
+<button type="button" class="navbar-toggle visible-sm" data-toggle="offcanvas"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+</div>
+</div>
+</div>
+</header>
+<div class="trail-wrapper hidden-print">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="breadcrumb dropdown visible-xs">
+<a data-toggle="dropdown" class="dropdown-toggle" role="button" href="#" id="trail-dropdown-toggle">View Item&nbsp;<b class="caret"></b></a>
+<ul aria-labelledby="trail-dropdown-toggle" role="menu" class="dropdown-menu">
+<li role="presentation">
+<a role="menuitem" href="https://repositories.lib.utexas.edu/"><i aria-hidden="true" class="glyphicon glyphicon-home"></i>&nbsp;
+                        Repository Home</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="https://repositories.lib.utexas.edu/handle/2152/3">UT Communities</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="https://repositories.lib.utexas.edu/handle/2152/4027">Cockrell School of Engineering</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="https://repositories.lib.utexas.edu/handle/2152/4028">Center for Research in Water Resources</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="https://repositories.lib.utexas.edu/handle/2152/6289">Environmental Flows Information System</a>
+</li>
+<li role="presentation" class="disabled">
+<a href="#" role="menuitem">View Item</a>
+</li>
+</ul>
+</div>
+<ul class="breadcrumb hidden-xs">
+<li class="ds-trail-link first-link ">
+<a href="https://repositories.lib.utexas.edu/">Repository Home</a>
+</li>
+<li class="ds-trail-link ">
+<a href="https://repositories.lib.utexas.edu/handle/2152/3">UT Communities</a>
+</li>
+<li class="ds-trail-link ">
+<a href="https://repositories.lib.utexas.edu/handle/2152/4027">Cockrell School of Engineering</a>
+</li>
+<li class="ds-trail-link ">
+<a href="https://repositories.lib.utexas.edu/handle/2152/4028">Center for Research in Water Resources</a>
+</li>
+<li class="ds-trail-link ">
+<a href="https://repositories.lib.utexas.edu/handle/2152/6289">Environmental Flows Information System</a>
+</li>
+<li class="ds-trail-link last-link">View Item</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden" id="no-js-warning-wrapper">
+<div id="no-js-warning">
+<div class="notice failure">JavaScript is disabled for your browser. Some features of this site may not work without it.</div>
+</div>
+</div>
+<div class="container" id="main-container">
+<div class="row row-offcanvas row-offcanvas-right">
+<div class="horizontal-slider clearfix">
+<div class="col-xs-12 col-sm-12 col-md-9 main-content">
+<div>
+<div id="aspect_artifactbrowser_ItemViewer_div_item-view" class="ds-static-div primary">
+<!-- External Metadata URL: cocoon://metadata/handle/2152/6290/mets.xml-->
+<div class="item-summary-view-metadata">
+<h2 class="page-header first-page-header">An Annotated Checklist of the Freshwater Fishes of Texas, with Keys to Identification of Species, 2nd Edition</h2>
+<div class="row">
+<div class="col-sm-4">
+<div class="row">
+<div class="col-xs-6 col-sm-12">
+<div class="thumbnail">
+<img alt="Thumbnail" class="img-thumbnail" src="Hubbs_et_al_2008_checklist.jpg"></div>
+</div>
+<div class="col-xs-6 col-sm-12">
+<div class="item-page-field-wrapper table word-break">
+<h5>View/<wbr>Open</h5>
+<div>
+<a href="https://repositories.lib.utexas.edu/bitstream/handle/2152/6290/Hubbs_et_al_2008_checklist.pdf?sequence=2&amp;isAllowed=y"><i aria-hidden="true" class="glyphicon  glyphicon-file"></i> Annotated Fishes Checklist, 2nd Ed. (371.8Kb)</a>
+</div>
+</div>
+</div>
+</div>
+<div class="simple-item-view-date word-break item-page-field-wrapper table">
+<h5>Date</h5>2008-07</div>
+<div class="simple-item-view-authors item-page-field-wrapper table">
+<h5>Author</h5>
+<div class="ds-dc_contributor_author-authority">
+<a target="_blank" href="https://repositories.lib.utexas.edu/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Hubbs%2C+Clark">Hubbs, Clark</a>
+</div>
+<div class="ds-dc_contributor_author-authority">
+<a target="_blank" href="https://repositories.lib.utexas.edu/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Edwards%2C+Robert+J.">Edwards, Robert J.</a>
+</div>
+<div class="ds-dc_contributor_author-authority">
+<a target="_blank" href="https://repositories.lib.utexas.edu/discover?filtertype=author&amp;filter_relational_operator=equals&amp;filter=Garrett%2C+Gary+P.">Garrett, Gary P.</a>
+</div>
+</div>
+<div class="simple-item-view-authors item-page-field-wrapper table hidden-xs">
+<h5>Share</h5>
+<div class="social-links">
+<a href="http://www.facebook.com/sharer.php?u=https://repositories.lib.utexas.edu/handle/2152/6290"><i class="fa fa-facebook-official">&nbsp;</i>Facebook</a>
+</div>
+<div class="social-links">
+<a href="http://twitter.com/share?url=https://repositories.lib.utexas.edu/handle/2152/6290"><i class="fa fa-twitter">&nbsp;</i>Twitter</a>
+</div>
+<div class="social-links">
+<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://repositories.lib.utexas.edu/handle/2152/6290"><i class="fa fa-linkedin">&nbsp;</i>LinkedIn</a>
+</div>
+</div>
+<div class="simple-item-view-show-full item-page-field-wrapper table">
+<h5>Metadata</h5>
+<a href="https://repositories.lib.utexas.edu/handle/2152/6290?show=full">Show full item record</a>
+</div>
+</div>
+<div class="col-sm-8">
+<div class="simple-item-view-description item-page-field-wrapper table">
+<h5>Abstract</h5>
+<div>Forty-nine families and 268 species of fishes are known to inhabit 
+the freshwaters of Texas. We report on the distribution and status of 
+these fishes and provide a key to their identification. Of the native 
+fishes originally found in Texas, five taxa, Cyprinella lutrensis blairi
+ (Maravillas red shiner), Notropis orca (phantom shiner), N. simus simus
+ (Rio Grande bluntnose shiner), Gambusia amistadensis (Amistad gambusia)
+ and G. georgei (San Marcos gambusia) are apparently extinct, and four, 
+Hybognathus amarus (Rio Grande silvery minnow), Notropis simus 
+pecosensis (Pecos bluntnose shiner), Oncorhynchus clarki virginalis (Rio
+ Grande cutthroat trout) and Gambusia senilis (blotched gambusia) appear
+ to be extirpated from the state. Over 40 percent of the remaining 
+primary freshwater species are of conservation concern and in some need 
+of protection.</div>
+</div>
+<div class="simple-item-view-description item-page-field-wrapper table">
+<h5>Department</h5>
+<div>
+<a href="https://repositories.lib.utexas.edu/discover?filtertype=department&amp;filter_relational_operator=equals&amp;filter=Civil%2C+Architectural%2C+and+Environmental+Engineering">Civil, Architectural, and Environmental Engineering</a>
+</div>
+</div>
+<div class="simple-item-view-subject item-page-field-wrapper table">
+<h5>Subject</h5>
+<div>
+<a target="_black" href="https://repositories.lib.utexas.edu/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=fishes">fishes</a>
+<br>
+<a target="_black" href="https://repositories.lib.utexas.edu/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=freshwater">freshwater</a>
+<br>
+<a target="_black" href="https://repositories.lib.utexas.edu/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=checklist">checklist</a>
+<br>
+<a target="_black" href="https://repositories.lib.utexas.edu/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=Hubbs">Hubbs</a>
+<br>
+<a target="_black" href="https://repositories.lib.utexas.edu/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=Texas">Texas</a>
+<br>
+<a target="_black" href="https://repositories.lib.utexas.edu/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=fish+distribution">fish distribution</a>
+<br>
+<a target="_black" href="https://repositories.lib.utexas.edu/discover?filtertype=subject&amp;filter_relational_operator=equals&amp;filter=dichotomous+keys">dichotomous keys</a>
+<div class="spacer"></div>
+</div>
+</div>
+<div class="simple-item-view-uri item-page-field-wrapper table">
+<h5>URI</h5>
+<span><a href="http://hdl.handle.net/2152/6290">http://hdl.handle.net/2152/6290</a></span>
+</div>
+<div class="simple-item-view-uri item-page-field-wrapper table">
+<h5>Citation</h5>
+<span><i><a href="https://repositories.lib.utexas.edu/handle/2152/Hubbs,%20C.,%20R.J.%20Edwards,%20and%20G.P.%20Garrett.%20%202008.%20%20An%20Annotated%20Checklist%20of%20the%20Freshwater%20Fishes%20of%20Texas,%20with%20Keys%20to%20Identification%20of%20Species,%202nd%20Edition.%20%20Texas%20Academy%20of%20Science.">Hubbs,
+ C., R.J. Edwards, and G.P. Garrett.  2008.  An Annotated Checklist of 
+the Freshwater Fishes of Texas, with Keys to Identification of Species, 
+2nd Edition.  Texas Academy of Science.</a></i></span>
+</div>
+<div class="simple-item-view-collections item-page-field-wrapper table">
+<h5>Collections</h5>
+<ul class="ds-referenceSet-list">
+<!-- External Metadata URL: cocoon://metadata/handle/2152/6289/mets.xml-->
+<li>
+<a href="https://repositories.lib.utexas.edu/handle/2152/6289">Environmental Flows Information System</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="visible-xs visible-sm">
+<footer>
+<div class="row">
+<div class="col-md-12">
+<hr>
+<div class="footer-field-container">
+<div class="footer-field-1">
+<a href="https://www.lib.utexas.edu/"><img alt="University of Texas at Austin Libraries" src="ut-libraries-logo_1.png"></a>
+<div class="footer-social-icons">
+<ul>
+<li>
+<a href="https://www.facebook.com/utlibraries"><img alt="facebook" src="footer-icon-fbk.png"></a>
+</li>
+<li>
+<a href="https://twitter.com/utdigitalrepo"><img alt="twitter" src="footer-icon-twt.png"></a>
+</li>
+<li>
+<a href="https://www.instagram.com/utlibraries/"><img alt="instagram" src="footer-icon-inst.png"></a>
+</li>
+<li>
+<a href="https://www.youtube.com/user/utlibraries"><img alt="youtube" src="footer-icon-ytb.png"></a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer-field-2">
+<ul>
+<li>
+<a href="https://lib.utexas.edu/contact"><strong>CONTACT US</strong></a>
+</li>
+<li>
+<a href="https://maps.utexas.edu/#/utm"><strong>MAPS &amp; DIRECTIONS</strong></a>
+</li>
+<li>
+<a href="https://lib.utexas.edu/about/jobs"><strong>JOB OPPORTUNITIES</strong></a>
+</li>
+</ul>
+</div>
+<div class="footer-field-3">
+<ul>
+<li>
+<a href="http://www.utexas.edu/">UT Austin Home</a>
+</li>
+<li>
+<a href="http://www.utexas.edu/emergency">Emergency Information</a>
+</li>
+<li>
+<a href="http://www.utexas.edu/site-policies">Site Policies</a>
+</li>
+<li>
+<a href="http://www.utexas.edu/web-accessibility-policy">Web Accessibility Policy</a>
+</li>
+<li>
+<a href="http://www.utexas.edu/web-privacy-policy">Web Privacy Policy</a>
+</li>
+<li>
+<a href="https://get.adobe.com/reader/">Adobe Reader</a>
+</li>
+</ul>
+</div>
+<div class="footer-field-4">
+<a href="https://lib.utexas.edu/subscribe-newsletter">Subscribe to our Newsletter</a><a href="https://lib.utexas.edu/about/give">Give to the Libraries</a>
+<p>© The University of Texas at Austin </p>
+</div>
+</div>
+</div>
+</div>
+<a class="hidden" href="https://repositories.lib.utexas.edu/htmlmap">&nbsp;</a>
+<p>&nbsp;</p>
+</footer>
+</div>
+</div>
+<div role="navigation" id="sidebar" class="col-xs-6 col-sm-3 sidebar-offcanvas">
+<div class="word-break hidden-print" id="ds-options">
+<div class="ds-option-set" id="ds-search-option">
+<form method="post" class="" id="ds-search-form" action="/discover">
+<fieldset>
+<div class="input-group">
+<input placeholder="Search" class="ds-text-field form-control" name="query" type="text"><span class="input-group-btn"><button title="Go" class="ds-button-field btn btn-primary"><span aria-hidden="true" class="glyphicon glyphicon-search"></span></button></span>
+</div>
+<div class="radio">
+<label><input checked="checked" value="" name="scope" id="ds-search-form-scope-all" type="radio">Search Repository</label>
+</div>
+<div class="radio">
+<label><input name="scope" id="ds-search-form-scope-container" value="2152/6289" type="radio">This Collection</label>
+</div>
+</fieldset>
+</form>
+</div>
+<h2 class="ds-option-set-head  h6">Browse</h2>
+<div id="aspect_viewArtifacts_Navigation_list_browse" class="list-group">
+<a class="list-group-item active"><span class="h5 list-group-item-heading  h5">Entire Repository</span></a><a href="https://repositories.lib.utexas.edu/community-list" class="list-group-item ds-option">Communities &amp; Collections</a><a href="https://repositories.lib.utexas.edu/browse?type=dateissued" class="list-group-item ds-option">Date Issued</a><a href="https://repositories.lib.utexas.edu/browse?type=author" class="list-group-item ds-option">Authors</a><a href="https://repositories.lib.utexas.edu/browse?type=title" class="list-group-item ds-option">Titles</a><a href="https://repositories.lib.utexas.edu/browse?type=subject" class="list-group-item ds-option">Subjects</a><a href="https://repositories.lib.utexas.edu/browse?type=department" class="list-group-item ds-option">Departments</a><a class="list-group-item active"><span class="h5 list-group-item-heading  h5">This Collection</span></a><a href="https://repositories.lib.utexas.edu/handle/2152/6289/browse?type=dateissued" class="list-group-item ds-option">Date Issued</a><a href="https://repositories.lib.utexas.edu/handle/2152/6289/browse?type=author" class="list-group-item ds-option">Authors</a><a href="https://repositories.lib.utexas.edu/handle/2152/6289/browse?type=title" class="list-group-item ds-option">Titles</a><a href="https://repositories.lib.utexas.edu/handle/2152/6289/browse?type=subject" class="list-group-item ds-option">Subjects</a><a href="https://repositories.lib.utexas.edu/handle/2152/6289/browse?type=department" class="list-group-item ds-option">Departments</a>
+</div>
+<h2 class="ds-option-set-head  h6">My Account</h2>
+<div id="aspect_viewArtifacts_Navigation_list_account" class="list-group">
+<a href="https://repositories.lib.utexas.edu/login" class="list-group-item ds-option">Login</a>
+</div>
+<div id="aspect_viewArtifacts_Navigation_list_context" class="list-group"></div>
+<div id="aspect_viewArtifacts_Navigation_list_administrative" class="list-group"></div>
+<h2 class="ds-option-set-head  h6">Statistics</h2>
+<div id="aspect_statistics_Navigation_list_statistics" class="list-group">
+<a href="https://repositories.lib.utexas.edu/handle/2152/6290/statistics" class="list-group-item ds-option">View Usage Statistics</a>
+</div>
+<div>
+<h2 class="ds-option-set-head h6">
+                Information
+            </h2>
+<div class="ds-option-set list-group" id="ds-feed-option">
+<item>
+<a class="list-group-item" href="https://repositories.lib.utexas.edu/page/about">
+                        About
+                    </a>
+</item>
+<item>
+<a class="list-group-item" href="https://repositories.lib.utexas.edu/page/contact">
+                        Contact
+                    </a>
+</item>
+<item>
+<a class="list-group-item" href="https://repositories.lib.utexas.edu/page/policies">
+                        Policies
+                    </a>
+</item>
+<item>
+<a class="list-group-item" href="https://repositories.lib.utexas.edu/page/faqs#getting_started">
+                        Getting Started
+                    </a>
+</item>
+<item>
+<a class="list-group-item" href="https://repositories.lib.utexas.edu/page/glossary">
+                        Glossary
+                    </a>
+</item>
+<item>
+<a class="list-group-item" href="https://repositories.lib.utexas.edu/page/help">
+                        Help
+                    </a>
+</item>
+<item>
+<a class="list-group-item" href="https://repositories.lib.utexas.edu/page/faqs">
+                        FAQs
+                    </a>
+</item>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-xs hidden-sm">
+<footer>
+<div class="row">
+<div class="col-md-12">
+<hr>
+<div class="footer-field-container">
+<div class="footer-field-1">
+<a href="https://www.lib.utexas.edu/"><img alt="University of Texas at Austin Libraries" src="ut-libraries-logo_1.png"></a>
+<div class="footer-social-icons">
+<ul>
+<li>
+<a href="https://www.facebook.com/utlibraries"><img alt="facebook" src="footer-icon-fbk.png"></a>
+</li>
+<li>
+<a href="https://twitter.com/utdigitalrepo"><img alt="twitter" src="footer-icon-twt.png"></a>
+</li>
+<li>
+<a href="https://www.instagram.com/utlibraries/"><img alt="instagram" src="footer-icon-inst.png"></a>
+</li>
+<li>
+<a href="https://www.youtube.com/user/utlibraries"><img alt="youtube" src="footer-icon-ytb.png"></a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer-field-2">
+<ul>
+<li>
+<a href="https://lib.utexas.edu/contact"><strong>CONTACT US</strong></a>
+</li>
+<li>
+<a href="https://maps.utexas.edu/#/utm"><strong>MAPS &amp; DIRECTIONS</strong></a>
+</li>
+<li>
+<a href="https://lib.utexas.edu/about/jobs"><strong>JOB OPPORTUNITIES</strong></a>
+</li>
+</ul>
+</div>
+<div class="footer-field-3">
+<ul>
+<li>
+<a href="http://www.utexas.edu/">UT Austin Home</a>
+</li>
+<li>
+<a href="http://www.utexas.edu/emergency">Emergency Information</a>
+</li>
+<li>
+<a href="http://www.utexas.edu/site-policies">Site Policies</a>
+</li>
+<li>
+<a href="http://www.utexas.edu/web-accessibility-policy">Web Accessibility Policy</a>
+</li>
+<li>
+<a href="http://www.utexas.edu/web-privacy-policy">Web Privacy Policy</a>
+</li>
+<li>
+<a href="https://get.adobe.com/reader/">Adobe Reader</a>
+</li>
+</ul>
+</div>
+<div class="footer-field-4">
+<a href="https://lib.utexas.edu/subscribe-newsletter">Subscribe to our Newsletter</a><a href="https://lib.utexas.edu/about/give">Give to the Libraries</a>
+<p>© The University of Texas at Austin </p>
+</div>
+</div>
+</div>
+</div>
+<a class="hidden" href="https://repositories.lib.utexas.edu/htmlmap">&nbsp;</a>
+<p>&nbsp;</p>
+</footer>
+</div>
+</div>
+<script type="text/javascript">
+                         if(typeof window.publication === 'undefined'){
+                            window.publication={};
+                          };
+                        window.publication.contextPath= '';window.publication.themePath= '/themes/Mirage2/';</script><script>if(!window.DSpace){window.DSpace={};}window.DSpace.context_path='';window.DSpace.theme_path='/themes/Mirage2/';</script><script src="theme.js"> </script><script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-3780897-4', 'repositories.lib.utexas.edu');
+                ga('send', 'pageview');
+            </script><script src="jquery.js"> </script><script type="text/javascript">
+                $(function(){
+                    $('.bxslider').bxSlider({
+                        pager: false,
+                        captions: true,
+                        minSlides: 3,
+                        maxSlides: 3,
+                        slideWidth: 283,
+                        slideMargin: 10,
+                        infiniteLoop: false,
+                        hideControlOnEnd: true,
+                        preloadImages: true
+                    });
+                });
+            </script>
+
+</body></html>

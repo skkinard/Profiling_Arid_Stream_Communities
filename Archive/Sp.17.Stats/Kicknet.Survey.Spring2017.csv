@@ -1,0 +1,320 @@
+﻿box,cell,site.code,USGS.gauge,collection.date,bug.count,total.cells,cells.to.100,additional.cells.to.300,cells.picked.to300,total.to.100,total.to.300,est.i.per.sqm,total identified,abundance,ct.per.sq.m,Order,Family,Genus,Species,genus species
+3,B3,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,11,101,Ephemeroptera,,Ameletus,,Ameletus
+3,C3,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,8,73,Ephemeroptera,,Ameletus,,Ameletus
+5,B6,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,2,18,Odonata,,Argia,,Argia
+5,C2,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,6,55,Odonata,,Argia,,Argia
+3,B5,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,16,146,Ephemeroptera,,Baetis,,Baetis
+3,D1,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,47,430,Ephemeroptera,,Baetis,,Baetis
+7,E7,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,1,9,gastropoda,Truncatelloidea,Bithynia,tentaculata,Bithynia tentaculata
+5,C3,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,5,46,Odonata,,Brechmorhoga,,Brechmorhoga
+3,B4,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,6,55,Ephemeroptera,,Camelobaetidius,,Camelobaetidius
+3,C2,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,8,73,Ephemeroptera,,Camelobaetidius,,Camelobaetidius
+3,B2,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,15,137,Ephemeroptera,,Cercobrachys,,Cercobrachys
+3,C1,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,2,18,Ephemeroptera,,Cercobrachys,,Cercobrachys
+1,A2,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,8,73,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+1,B6,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,1,9,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+1,C1,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,1,9,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+1,B4,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,1,9,Trichoptera,,Chimarra,,Chimarra
+7,E6,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,1,9,Veneroida,,Corbicula,,Corbicula
+5,E4,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,2,18,Coleoptera,,Dubiraphia,,Dubiraphia
+3,D2,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,1,9,Ephemeroptera,,,,Ephemeroptera
+5,B7,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,6,55,Odonata,,Erpetogomphus,,Erpetogomphus
+5,C1,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,7,64,Odonata,,Erpetogomphus,,Erpetogomphus
+3,B6,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,3,27,Ephemeroptera,,Isonychiidae,,Isonychiidae
+3,B7,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,21,192,Ephemeroptera,,Farrodes,,Farrodes
+7,E3,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,2,18,gastropoda,Planorboidea,Ferrissia,rivularis,Ferrissia rivularis
+8,B7,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,2,18,Amphipoda,,Gammarus,,Gammarus
+7,E4,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,1,9,gastropoda,Helicinoidea,Helicina,orbiculata,Helicina orbiculata
+8,D7,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,4,37,Amphipoda,,Hyalella,,Hyalella
+1,B5,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,1,9,Trichoptera,,Hydropsyche,,Hydropsyche
+3,B1,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,3,27,Ephemeroptera,,Isonychia,,Isonychia
+2,B4,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,1,9,Hemiptera,,Lipogomphus,,Lipogomphus
+1,G4,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,2,18,Coleoptera,,Macrelmis,,Macrelmis
+7,E2,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,11,101,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+7,E5,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,9,82,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+1,A3,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,1,9,Trichoptera,,METRICA,,METRICA
+1,A4,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,4,37,Trichoptera,,Nectopsyche,,Nectopsyche
+1,B7,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,1,9,Trichoptera,,Nectopsyche,,Nectopsyche
+2,B3,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,1,9,Hemiptera,,Neoplea,,Neoplea
+8,C1,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,1,9,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+1,A5,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,1,9,Trichoptera,,Philopotamidae,,Philopotamidae
+7,F1,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,1,9,gastropoda,Planorboidea,Physella,,Physella
+2,B2,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,2,18,Hemiptera,,Rhagovelia,,Rhagovelia
+2,B5,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,4,37,Hemiptera,,Rhagovelia,,Rhagovelia
+2,B6,AR,8189700,3/14/2017,300,64,3,7,10,102,304,1613,252,2,18,Hemiptera,,Rheumatobates,,Rheumatobates
+1,G5,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,5,46,Coleoptera,,Stenelmis,,Stenelmis
+5,E5,AR,8189700,3/14/2017,100,64,3,7,10,102,304,1613,252,14,128,Coleoptera,,Stenelmis,,Stenelmis
+1,D1,BBW,8068390,3/13/2017,300,64,4,7,11,103,304,1158,199,1,9,Trichoptera,,Alisotrichia,arizonica,Alisotrichia arizonica
+3,A6,BBW,8068390,3/13/2017,100,64,4,7,11,103,304,1158,199,13,119,Ephemeroptera,,Ameletus,,Ameletus
+3,A7,BBW,8068390,3/13/2017,100,64,4,7,11,103,304,1158,199,21,192,Ephemeroptera,,Baetodes,,Baetodes
+7,A5,BBW,8068390,3/13/2017,100,64,4,7,11,103,304,1158,199,1,9,gastropoda,Truncatelloidea,Bithynia,tentaculata,Bithynia tentaculata
+3,G6,BBW,8068390,3/13/2017,300,64,4,7,11,103,304,1158,199,10,91,Ephemeroptera,,Caenis,,Caenis
+3,A5,BBW,8068390,3/13/2017,100,64,4,7,11,103,304,1158,199,5,46,Ephemeroptera,,Cercobrachys,,Cercobrachys
+1,A1,BBW,8068390,3/13/2017,100,64,4,7,11,103,304,1158,199,6,55,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+1,D2,BBW,8068390,3/13/2017,300,64,4,7,11,103,304,1158,199,19,174,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+7,A4,BBW,8068390,3/13/2017,100,64,4,7,11,103,304,1158,199,12,110,Veneroida,,Corbicula,,Corbicula
+7,C1,BBW,8068390,3/13/2017,300,64,4,7,11,103,304,1158,199,6,55,Veneroida,,Corbicula,,Corbicula
+7,D1,BBW,8068390,3/13/2017,300,64,4,7,11,103,304,1158,199,6,55,Veneroida,,Corbicula,,Corbicula
+3,G7,BBW,8068390,3/13/2017,300,64,4,7,11,103,304,1158,199,4,37,Ephemeroptera,,Fallceon,,Fallceon
+8,B5,BBW,8068390,3/13/2017,300,64,4,7,11,103,304,1158,199,40,366,Amphipoda,,Hyalella,,Hyalella
+8,D4,BBW,8068390,3/13/2017,100,64,4,7,11,103,304,1158,199,17,155,Amphipoda,,Hyalella,,Hyalella
+8,D3,BBW,8068390,3/13/2017,100,64,4,7,11,103,304,1158,199,1,9,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+5,E1,BBW,8068390,3/13/2017,300,64,4,7,11,103,304,1158,199,1,9,Coleoptera,,Peltodytes,,Peltodytes
+3,G5,BBW,8068390,3/13/2017,300,64,4,7,11,103,304,1158,199,35,320,Ephemeroptera,,Plauditus,,Plauditus
+7,C2,BBW,8068390,3/13/2017,300,64,4,7,11,103,304,1158,199,1,9,gastropoda,Lymnaeoidea,Pseudosuccinea,,Pseudosuccinea
+2,B7,BC,8115000,3/14/2017,300,32,9,12,21,105,301,325,213,1,5,Hemiptera,,Belostoma,,Belostoma
+6,F2,BC,8115000,3/14/2017,100,32,9,12,21,105,301,325,213,1,5,gastropoda,Truncatelloidea,Bithynia,,Bithynia
+3,F7,BC,8115000,3/14/2017,300,32,9,12,21,105,301,325,213,3,14,Ephemeroptera,,Brachycerus,,Brachycerus
+3,E4,BC,8115000,3/14/2017,100,32,9,12,21,105,301,325,213,4,18,Ephemeroptera,,Caenis,,Caenis
+3,G2,BC,8115000,3/14/2017,300,32,9,12,21,105,301,325,213,1,5,Ephemeroptera,,Caenis,,Caenis
+1,C2,BC,8115000,3/14/2017,300,32,9,12,21,105,301,325,213,7,32,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+3,E3,BC,8115000,3/14/2017,100,32,9,12,21,105,301,325,213,61,279,Ephemeroptera,,Fallceon,,Fallceon
+8,F2,BC,8115000,3/14/2017,100,32,9,12,21,105,301,325,213,4,18,Amphipoda,,Hyalella,,Hyalella
+8,F7,BC,8115000,3/14/2017,300,32,9,12,21,105,301,325,213,12,55,Amphipoda,,Hyalella,,Hyalella
+3,G1,BC,8115000,3/14/2017,300,32,9,12,21,105,301,325,213,1,5,Ephemeroptera,,Leptohyphes,,Leptohyphes
+8,F1,BC,8115000,3/14/2017,100,32,9,12,21,105,301,325,213,2,9,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+8,F6,BC,8115000,3/14/2017,300,32,9,12,21,105,301,325,213,1,5,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+6,F1,BC,8115000,3/14/2017,100,32,9,12,21,105,301,325,213,2,9,gastropoda,Planorboidea,Physella,virgata,Physella virgata
+3,F6,BC,8115000,3/14/2017,300,32,9,12,21,105,301,325,213,109,498,Ephemeroptera,,Plauditus,,Plauditus
+5,E2,BC,8115000,3/14/2017,100,32,9,12,21,105,301,325,213,2,9,Coleoptera,,Stenelmis,,Stenelmis
+5,E3,BC,8115000,3/14/2017,300,32,9,12,21,105,301,325,213,2,9,Coleoptera,,Stenelmis,,Stenelmis
+3,D4,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,1,5,Ephemeroptera,,Ameletus,,Ameletus
+3,E1,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,1,5,Ephemeroptera,,Ametropus,,Ametropus
+7,C5,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,1,5,gastropoda,Rissooidea,Amnicola,,Amnicola
+3,D3,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,19,87,Ephemeroptera,,Baetis,,Baetis
+3,E2,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,8,37,Ephemeroptera,,Baetodes,,Baetodes
+2,C1,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,1,5,Hemiptera,,Belostoma,,Belostoma
+5,D7,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,1,5,Coleoptera,,Berosus,,Berosus
+3,D7,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,1,5,Ephemeroptera,,Brachycerus,,Brachycerus
+8,B3,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,2,9,Isopoda,,Caecidotea,,Caecidotea
+6,D5,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,1,5,gastropoda,Viviparoidea,Campeloma,,Campeloma
+3,D6,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,1,5,Ephemeroptera,,Cercobrachys,,Cercobrachys
+6,E2,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,18,82,Veneroida,,Corbicula,,Corbicula
+7,C3,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,8,37,Veneroida,,Corbicula,,Corbicula
+2,A4,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,1,5,Hemiptera,,Glaenocorisa,,Glaenocorisa
+6,D6,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,2,9,gastropoda,Planorboidea,Gyraulus,,Gyraulus
+8,A5,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,24,110,Amphipoda,,Hyalella,,Hyalella
+8,B2,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,30,137,Amphipoda,,Hyalella,,Hyalella
+8,G4,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,2,9,Amphipoda,,Hyalella,,Hyalella
+5,G4,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,1,5,Coleoptera,,Hydrobius,,Hydrobius
+7,C6,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,3,14,gastropoda,Planorboidea,Menetus,dilatatus,Menetus dilatatus
+2,C3,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,1,5,Hemiptera,,Morphocorixa,,Morphocorixa
+8,B1,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,9,41,Decapoda,,Orconectes,,Orconectes
+8,G1/G2,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,9,41,Decapoda,,Orconectes,,Orconectes
+8,B4,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,2,9,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+8,G3,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,2,9,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+6,E1,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,9,41,gastropoda,Planorboidea,Physa,,Physa
+7,C4,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,4,18,gastropoda,Planorboidea,Physella,virgata,Physella virgata
+1,B3,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,1,5,Trichoptera,,SMICRIDeA,,SMICRIDeA
+2,A3,CC,8189200,3/14/2017,100,32,15,17,32,115,211,168,168,2,9,Hemiptera,,Synaptonecta,,Synaptonecta
+2,C2,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,2,9,Hemiptera,,Synaptonecta,,Synaptonecta
+6,E6,CC,8189200,3/14/2017,300,32,15,17,32,115,211,168,168,1,5,gastropoda,Valvatoidea,Valvata,,Valvata
+6,G4,GC,8164600,4/2/2017,300,32,8,24,32,101,212,91,91,2,9,gastropoda,Rissooidea,Amnicola,,Amnicola
+7,B2,GC,8164600,4/2/2017,100,32,8,24,32,101,212,91,91,1,5,gastropoda,Rissooidea,Amnicola,,Amnicola
+5,G6,GC,8164600,4/2/2017,300,32,8,24,32,101,212,91,91,3,14,Coleoptera,,Ancyronyx,,Ancyronyx
+1,E5,GC,8164600,4/2/2017,100,32,8,24,32,101,212,91,91,2,9,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+6,G5,GC,8164600,4/2/2017,300,32,8,24,32,101,212,91,91,1,5,Veneroida,,Corbicula,,Corbicula
+7,B1,GC,8164600,4/2/2017,100,32,8,24,32,101,212,91,91,2,9,Veneroida,,Corbicula,,Corbicula
+5,G3,GC,8164600,4/2/2017,100,32,8,24,32,101,212,91,91,1,5,Coleoptera,,Cyphon,,Cyphon
+5,G2,GC,8164600,4/2/2017,100,32,8,24,32,101,212,91,91,1,5,Coleoptera,,Dubiraphia,,Dubiraphia
+5,G5,GC,8164600,4/2/2017,300,32,8,24,32,101,212,91,91,1,5,Coleoptera,,Elodes,,Elodes
+3,E6,GC,8164600,4/2/2017,300,32,8,24,32,101,212,91,91,49,224,Ephemeroptera,,Fallceon,,Fallceon
+6,G1,GC,8164600,4/2/2017,300,32,8,24,32,101,212,91,91,1,5,gastropoda,Planorboidea,Ferrissia,rivularis,Ferrissia rivularis
+8,A7,GC,8164600,4/2/2017,100,32,8,24,32,101,212,91,91,5,23,Amphipoda,,Hyalella,,Hyalella
+8,F5,GC,8164600,4/2/2017,300,32,8,24,32,101,212,91,91,3,14,Amphipoda,,Hyalella,,Hyalella
+1,F1,GC,8164600,4/2/2017,100,32,8,24,32,101,212,91,91,1,5,Coleoptera,,Macronychus,,Macronychus
+6,G3,GC,8164600,4/2/2017,300,32,8,24,32,101,212,91,91,1,5,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+7,A6,GC,8164600,4/2/2017,100,32,8,24,32,101,212,91,91,1,5,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+8,A6,GC,8164600,4/2/2017,100,32,8,24,32,101,212,91,91,5,23,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+8,F4,GC,8164600,4/2/2017,300,32,8,24,32,101,212,91,91,2,9,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+7,A7,GC,8164600,4/2/2017,100,32,8,24,32,101,212,91,91,1,5,Veneroida,,Pisidum,,Pisidum
+6,G2,GC,8164600,4/2/2017,300,32,8,24,32,101,212,91,91,1,5,gastropoda,Lymnaeoidea,Pseudosuccinea,,Pseudosuccinea
+3,A1,GC,8164600,4/2/2017,100,32,8,24,32,101,212,91,91,4,18,Ephemeroptera,,Stenonema,femoratum,Stenonema femoratum
+3,E5,GC,8164600,4/2/2017,300,32,8,24,32,101,212,91,91,3,14,Ephemeroptera,,Stenonema,femoratum,Stenonema femoratum
+5,D6,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,3,14,Odonata,,Amphiagrion,,Amphiagrion
+5,D5,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,2,9,Odonata,,Argia,,Argia
+6,C6,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,132,603,Planorboidea,,Biomphalaria,,Biomphalaria
+6,D1,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,23,105,Truncatelloidea,,Bithynia,tentaculata,Bithynia tentaculata
+4,A1,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,1,5,Ephemeroptera,,Caenis,,Caenis
+4,A2,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,11,50,Ephemeroptera,,Centroptilum,,Centroptilum
+5,D4,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,1,5,Odonata,,Erythemis,,Erythemis
+8,E2,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,69,315,Amphipoda,,Hyalella,,Hyalella
+1,G3,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,1,5,Coleoptera,,Hydraena,,Hydraena
+1,E6,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,1,5,Coleoptera,,Hydrobius,,Hydrobius
+1,G2,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,1,5,Coleoptera,,Hydrophilinae,,Hydrophilinae
+1,C3,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,1,5,Trichoptera,,Hydroptilidae,,Hydroptilidae
+6,D3,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,1,5,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+2,D2,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,1,5,Hemiptera,,Mesovelia,,Mesovelia
+8,E1,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,8,37,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+1,F7,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,1,5,Coleoptera,,Peltodytes,,Peltodytes
+1,G1,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,2,9,Coleoptera,,Peltodytes,,Peltodytes
+6,C7,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,62,283,Planorboidea,,Physa,,Physa
+2,D3,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,1,5,Hemiptera,,Ranatra,,Ranatra
+6,D2,MC,8189300,3/12/2017,300,32,3,9,12,124,317,867,325,3,14,Valvatoidea,,Valvata,,Valvata
+5,F3,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Coleoptera,,Ancyronyx,,Ancyronyx
+5,C5,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Odonata,,Argia,,Argia
+4,B6,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,11,50,Ephemeroptera,,Caenis,,Caenis
+5,C4,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Odonata,,Calopteryx,,Calopteryx
+5,C4,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Odonata,,Chromagrion,,Chromagrion
+5,G1,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,4,18,Coleoptera,,Cyphon,,Cyphon
+5,F4,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Coleoptera,,Dubiraphia,,Dubiraphia
+4,B5,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Ephemeroptera,,Farrodes,,Farrodes
+6,A5,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,5,23,gastropoda,Planorboidea,Ferrissia,rivularis,Ferrissia rivularis
+6,B3,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,13,59,gastropoda,Lymnaeoidea,Fossaria,,Fossaria
+5,G7,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,2,9,Coleoptera,,Gyretes,,Gyretes
+5,F5,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Coleoptera,,Heterelmis,,Heterelmis
+8,E4,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,52,238,Amphipoda,,Hyalella,,Hyalella
+1,D4,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Trichoptera,,Leptoceridae,,Leptoceridae
+4,B7,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,11,50,Ephemeroptera,,Leptohyphes,,Leptohyphes
+2,A7,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Hemiptera,,Limnocoris,,Limnocoris
+6,A7,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Superfam.: Helicoidea,,Linisa,texasiana,Linisa texasiana
+6,B2,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,3,14,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+1,E2,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Trichoptera,,Nectopsyche,,Nectopsyche
+8,E3,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,119,544,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+2,A6,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Hemiptera,,Pelocoris,,Pelocoris
+5,F2,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,2,9,Coleoptera,,Peltodytes,,Peltodytes
+6,B1,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,3,14,gastropoda,Planorboidea,Physa,marmorata,Physa marmorata
+6,A6,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,8,37,Veneroida,,Pisidum,,Pisidum
+4,B4,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,10,46,Ephemeroptera,,Plauditus,,Plauditus
+4,B3,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,2,9,Ephemeroptera,,Procloeon,,Procloeon
+5,F7,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Coleoptera,,Scirtes,,Scirtes
+5,F6,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,2,9,Coleoptera,,Stenelmis,,Stenelmis
+2,B1,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Hemiptera,,Trepobates,,Trepobates
+1,E1,MR,8189500,4/2/2017,100,32,7,15,22,106,303,381,262,1,5,Trichoptera,,,,Trichoptera
+5,A5,OSO,8211520,4/2/2017,300,32,4,11,15,113,323,83,39,2,9,Odonata,,Argia,,Argia
+3,A2,OSO,8211520,4/2/2017,300,32,4,11,15,113,323,83,39,3,14,Ephemeroptera,,Brachycerus,,Brachycerus
+1,A7,OSO,8211520,4/2/2017,300,32,4,11,15,113,323,83,39,6,27,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+1,F6,OSO,8211520,4/2/2017,300,32,4,11,15,113,323,83,39,2,9,Coleoptera,,Cyphon,,Cyphon
+8,B6,OSO,8211520,4/2/2017,300,32,4,11,15,113,323,83,39,14,64,Amphipoda,,Hyalella,,Hyalella
+1,F3,OSO,8211520,4/2/2017,300,32,4,11,15,113,323,83,39,1,5,Coleoptera,,Macronychus,,Macronychus
+1,F5,OSO,8211520,4/2/2017,300,32,4,11,15,113,323,83,39,2,9,Coleoptera,,Neoelmis,,Neoelmis
+7,C7,OSO,8211520,4/2/2017,300,32,4,11,15,113,323,83,39,5,23,Planorboidea,,Physa,,Physa
+7,D2,OSO,8211520,4/2/2017,300,32,4,11,15,113,323,83,39,2,9,Planorboidea,,Planorbula,,Planorbula
+1,B1,OSO,8211520,4/2/2017,300,32,4,11,15,113,323,83,39,1,5,Trichoptera,,Potamyia,,Potamyia
+1,F4,OSO,8211520,4/2/2017,300,32,4,11,15,113,323,83,39,1,5,Coleoptera,,Sphaeridiinae,,Sphaeridiinae
+5,B4,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,11,50,Odonata,,Amphiagrion,,Amphiagrion
+5,B3,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,1,5,Odonata,,Argia,,Argia
+5,B5,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,2,9,Odonata,,Argia,,Argia
+5,D2,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,2,9,Odonata,,Argia,,Argia
+3,G3,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,9,41,Ephemeroptera,,Brachycerus,,Brachycerus
+4,A6,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,6,27,Ephemeroptera,,Caenis,,Caenis
+4,B2,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,3,14,Ephemeroptera,,Caenis,,Caenis
+4,A5,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,9,41,Ephemeroptera,,Centroptilum,,Centroptilum
+1,A6,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,2,9,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+5,B2,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,4,18,Odonata,,Chromagrion,,Chromagrion
+4,A3,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,1,5,Ephemeroptera,,Cloeon,,Cloeon
+6,D7,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,10,46,Veneroida,,Corbicula,,Corbicula
+6,E5,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,4,18,Veneroida,,Corbicula,,Corbicula
+6,E7,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,10,46,Veneroida,,Corbicula,,Corbicula
+6,G6,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,1,5,Veneroida,,Corbicula,,Corbicula
+3,G4,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,32,146,Ephemeroptera,,Fallceon,,Fallceon
+6,D4,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,2,9,gastropoda,Planorboidea,Ferrissia,rivularis,Ferrissia rivularis
+6,G7,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,1,5,gastropoda,Planorboidea,Ferrissia,rivularis,Ferrissia rivularis
+5,D1,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,1,5,Odonata,,Hetaerina,,Hetaerina
+8,E7,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,26,119,Amphipoda,,Hyalella,,Hyalella
+8,F3,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,8,37,Amphipoda,,Hyalella,,Hyalella
+8,A1,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,15,69,Amphipoda,,Hyalella,,Hyalella
+5,D3,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,2,9,Odonata,,Neoneura,,Neoneura
+8,A3/A4,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,1,5,Decapoda,,Orconectes,,Orconectes
+8,E6,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,1,5,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+8,A2,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,1,5,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+6,E3,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,2,9,gastropoda,Planorboidea,Physa,,Physa
+6,E4,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,1,5,Veneroida,,Pisidum,,Pisidum
+4,A4,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,10,46,Ephemeroptera,,Procloeon,,Procloeon
+4,A7,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,1,5,Ephemeroptera,,Procloeon,,Procloeon
+4,B1,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,30,137,Ephemeroptera,,Pseudocloeon,,Pseudocloeon
+2,A5,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,8,37,Hemiptera,,Rhagovelia,,Rhagovelia
+2,C7,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,16,73,Hemiptera,,Rhagovelia,,Rhagovelia
+2,D1,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,21,96,Hemiptera,,Rhagovelia,,Rhagovelia
+1,B2,PBW,8068450,3/13/2017,100,32,4,14,18,106,311,455,256,1,5,Trichoptera,,SMICRIDeA,,SMICRIDeA
+1,F2,PBW,8068450,3/13/2017,300,32,4,14,18,106,311,455,256,1,5,Coleoptera,,Stenelmis,,Stenelmis
+3,C4,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,2,18,Ephemeroptera,,Ameletus,,Ameletus
+5,B1,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,4,37,Odonata,,Amphiagrion,,Amphiagrion
+5,C7,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,3,27,Odonata,,Amphiagrion,,Amphiagrion
+5,C6,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,5,46,Odonata,,Argia,,Argia
+3,C7,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,3,27,Ephemeroptera,,Baetis,,Baetis
+3,A3,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,5,46,Ephemeroptera,,Brachycerus,,Brachycerus
+3,F3,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,16,146,Ephemeroptera,,Brachycerus,,Brachycerus
+3,C5,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,2,18,Ephemeroptera,,Cercobrachys,,Cercobrachys
+1,C7,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,10,91,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+6,C4,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,3,27,Veneroida,,Corbicula,,Corbicula
+7,D6,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,2,18,Veneroida,,Corbicula,,Corbicula
+3,E7,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,30,274,Ephemeroptera,,Fallceon,,Fallceon
+3,F4,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,19,174,Ephemeroptera,,Fallceon,,Fallceon
+3,A4,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,1,9,Ephemeroptera,,Baetidae,,Baetidae
+3,C6,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,1,9,Ephemeroptera,,Farrodes,,Farrodes
+6,C5,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,3,27,Basommatophora,,Helisoma,,Helisoma
+7,D7,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,5,46,Basommatophora,,Helisoma,,Helisoma
+8,D2,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,14,128,Amphipoda,,Hyalella,,Hyalella
+8,E5,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,13,119,Amphipoda,,Hyalella,,Hyalella
+1,G6,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,1,9,Coleoptera,,Hydraena,,Hydraena
+3,F2,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,2,18,Ephemeroptera,,Leptohyphes,,Leptohyphes
+2,C4,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,1,9,Hemiptera,,Limnoporus,,Limnoporus
+2,D5,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,1,9,Hemiptera,,Limnoporus,,Limnoporus
+2,D7,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,1,9,Hemiptera,,Limnoporus,,Limnoporus
+6,C3,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,24,219,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+7,D3,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,37,338,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+1,C5,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,4,37,Trichoptera,,Metrichia,,Metrichia
+1,C4,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,4,37,Trichoptera,,METRICA,,METRICA
+2,E1,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,1,9,Hemiptera,,Microvelia,,Microvelia
+2,C6,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,1,9,Hemiptera,,Neoplea,,Neoplea
+8,D1,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,3,27,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+6,C2,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,4,37,gastropoda,Planorboidea,Physa,,Physa
+7,D4,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,1,9,gastropoda,Planorboidea,Physa,,Physa
+7,D5,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,14,128,gastropoda,Planorboidea,Physella,virgata,Physella virgata
+3,F5,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,8,73,Ephemeroptera,,Plauditus,,Plauditus
+3,F1,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,60,549,Ephemeroptera,,Pseudocloeon,,Pseudocloeon
+7,E1,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,1,9,gastropoda,Pupilloidea,Strobilops,texasiana,Strobilops texasiana
+2,C5,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,2,18,Hemiptera,,Trepobates,,Trepobates
+2,D6,PDC,8177300,3/12/2017,300,64,20,44,64,101,263,314,314,2,18,Hemiptera,,Trepobates,,Trepobates
+1,C6,PDC,8177300,3/12/2017,100,64,20,44,64,101,263,314,314,1,9,Trichoptera,,,,Trichoptera
+7,B6,PLC,8164800,4/2/2017,300,32,3,9,12,112,316,392,147,3,14,gastropoda,Rissooidea,Amnicola,,Amnicola
+7,B7,PLC,8164800,4/2/2017,300,32,3,9,12,112,316,392,147,2,9,gastropoda,Truncatelloidea,POMATOPSIS,tentaculata,POMATOPSIS tentaculata
+7,B5,PLC,8164800,4/2/2017,300,32,3,9,12,112,316,392,147,1,5,gastropoda,Viviparoidea,Campeloma,,Campeloma
+1,D3,PLC,8164800,4/2/2017,300,32,3,9,12,112,316,392,147,30,137,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+5,E7,PLC,8164800,4/2/2017,300,32,3,9,12,112,316,392,147,5,23,Coleoptera,,Cyphon,,Cyphon
+5,E6,PLC,8164800,4/2/2017,300,32,3,9,12,112,316,392,147,1,5,Coleoptera,,Dubiraphia,,Dubiraphia
+7,B4,PLC,8164800,4/2/2017,300,32,3,9,12,112,316,392,147,2,9,Basommatophora,,Helisoma,anceps,Helisoma anceps
+8,D6,PLC,8164800,4/2/2017,300,32,3,9,12,112,316,392,147,12,55,Amphipoda,,Hyalella,,Hyalella
+8,D5,PLC,8164800,4/2/2017,300,32,3,9,12,112,316,392,147,1,5,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+7,B3,PLC,8164800,4/2/2017,300,32,3,9,12,112,316,392,147,54,247,Veneroida,,Pisidium,,Pisidium
+1,E4,PLC,8164800,4/2/2017,300,32,3,9,12,112,316,392,147,1,5,Trichoptera,,Stactobiella,,Stactobiella
+5,F1,PLC,8164800,4/2/2017,300,32,3,9,12,112,316,392,147,35,160,Coleoptera,,Stenelmis,,Stenelmis
+1,D5,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,1,9,Trichoptera,,Alisotricha,arizonica,Alisotricha arizonica
+7,A3,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,2,18,gastropoda,Rissooidea,Amnicola,,Amnicola
+5,A4,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,1,9,Odonata,,Argia,,Argia
+5,A7,SFC,8211900,3/16/2017,300,64,4,7,11,102,307,756,130,4,37,Odonata,,Argia,,Argia
+5,A1,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,1,9,Odonata,,Brechmorhoga,,Brechmorhoga
+8,C3,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,3,27,Isopoda,,Caecidotea,,Caecidotea
+8,C7,SFC,8211900,3/16/2017,300,64,4,7,11,102,307,756,130,2,18,Isopoda,,Caecidotea,,Caecidotea
+1,D6,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,16,146,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+1,D7,SFC,8211900,3/16/2017,300,64,4,7,11,102,307,756,130,18,165,Trichoptera,,Cheumatopsyche,,Cheumatopsyche
+6,A2/3,SFC,8211900,3/16/2017,300,64,4,7,11,102,307,756,130,1,9,Veneroida,,Corbicula,,Corbicula
+5,A3,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,1,9,Odonata,,Erpetogomphus,,Erpetogomphus
+5,A6,SFC,8211900,3/16/2017,300,64,4,7,11,102,307,756,130,1,9,Odonata,,Erpetogomphus,,Erpetogomphus
+8,C6,SFC,8211900,3/16/2017,300,64,4,7,11,102,307,756,130,3,27,Amphipoda,,Gammarus,,Gammarus
+2,A2,SFC,8211900,3/16/2017,300,64,4,7,11,102,307,756,130,1,9,Hemiptera,,Hebrus,,Hebrus
+8,C2,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,2,18,Amphipoda,,Hyalella,,Hyalella
+1,E3,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,1,9,Trichoptera,,Leptonema,,Leptonema
+7,A1,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,16,146,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+6,A4,SFC,8211900,3/16/2017,300,64,4,7,11,102,307,756,130,14,128,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+5,A2,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,1,9,Odonata,,Neoneura,,Neoneura
+8,C4,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,1,9,Decapoda,,Orconectes,,Orconectes
+8,C5,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,2,18,Decapoda,,Palaemonetes,kadiakensis,Palaemonetes kadiakensis
+7,A2,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,7,64,Veneroida,,Pisidum,,Pisidum
+6,A1,SFC,8211900,3/16/2017,300,64,4,7,11,102,307,756,130,14,128,Veneroida,,Pisidum,,Pisidum
+2,A1,SFC,8211900,3/16/2017,300,64,4,7,11,102,307,756,130,9,82,Hemiptera,,Rhagovelia,,Rhagovelia
+2,D4,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,2,18,Hemiptera,,Rhagovelia,,Rhagovelia
+3,D5,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,1,9,Ephemeroptera,,Siphlonurus,,Siphlonurus
+1,E7,SFC,8211900,3/16/2017,300,64,4,7,11,102,307,756,130,3,27,Coleoptera,,Stenelmis,,Stenelmis
+1,G7,SFC,8211900,3/16/2017,100,64,4,7,11,102,307,756,130,2,18,Coleoptera,,Stenelmis,,Stenelmis
+6,F7,TRC,8212300,3/22/2017,300,64,3,3,6,133,310,3328,312,1,9,gastropoda,Rissooidea,Amnicola,,Amnicola
+6,B7,TRC,8212300,3/22/2017,100,64,3,3,6,133,310,3328,312,1,9,gastropoda,Planorboidea,Biomphalaria,,Biomphalaria
+6,F5,TRC,8212300,3/22/2017,300,64,3,3,6,133,310,3328,312,33,302,gastropoda,Truncatelloidea,Bithynia,tentaculata,Bithynia tentaculata
+6,F4,TRC,8212300,3/22/2017,300,64,3,3,6,133,310,3328,312,1,9,gastropoda,Viviparoidea,Campeloma,,Campeloma
+6,B4,TRC,8212300,3/22/2017,100,64,3,3,6,133,310,3328,312,17,155,gastropoda,Lymnaeoidea,Fossaria,,Fossaria
+6,B5,TRC,8212300,3/22/2017,100,64,3,3,6,133,310,3328,312,85,777,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+6,B6,TRC,8212300,3/22/2017,100,64,3,3,6,133,310,3328,312,44,402,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+6,F3,TRC,8212300,3/22/2017,300,64,3,3,6,133,310,3328,312,127,1161,Sorbeoconcha,,Melanoides,tuberculata,Melanoides tuberculata
+6,C1,TRC,8212300,3/22/2017,100,64,3,3,6,133,310,3328,312,2,18,gastropoda,Rissooidea,Rissooidea Pomatiopsis,,Rissooidea Pomatiopsis
+6,F6,TRC,8212300,3/22/2017,300,64,3,3,6,133,310,3328,312,1,9,gastropoda,Lymnaeoidea,Pseudosuccinea,,Pseudosuccinea

@@ -1,0 +1,27 @@
+# Download Gauge Data for Stream Sites
+# Script Author - Christopher J. Patrick
+# July 18, 2018
+
+# load the package waterData
+library(waterData)
+
+# download a single starter series
+h1 <- importDVs(staid = "08212300", code = "00060", stat = "00003", sdate = "2017-08-01",edate = as.Date(Sys.Date(), format = "%Y-%m-%d"))
+All <- h1[,c(2,3)]
+colnames(All) <- c("08212300","dates")
+
+# list of remaining stream sites
+gage.list <- c("08211900","08189700","08177300","08189500","08164800","08164600","08164504","08164503")
+
+# download data from remaining sites and merge with first site
+for (x in 1:length(gage.list)){
+temp <- importDVs(staid = gage.list[x], code = "00060", stat = "00003", sdate = "2017-08-01",
+  edate = as.Date(Sys.Date(), format = "%Y-%m-%d"))
+temp2 <- temp[,c(2,3)]
+colnames(temp2) <- c(gage.list[x],"dates")
+
+All <- merge(All,temp2, by = "dates")
+}
+
+
+

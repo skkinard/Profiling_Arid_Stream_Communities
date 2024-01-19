@@ -1,0 +1,675 @@
+ USGS Water Resources NSDI Node
+Link to USGS home page. 	
+	USGS Home
+Contact USGS
+Search USGS
+Water Resources NSDI Node
+GAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow
+Water Resource Maps and GIS Data
+Click To Get This Data Set
+List of All GIS Data Sets On The Water Resources NSDI Node
+Metadata:
+
+    Identification_Information
+    Data_Quality_Information
+    Spatial_Data_Organization_Information
+    Spatial_Reference_Information
+    Entity_and_Attribute_Information
+    Distribution_Information - ( Get This Data Set Here ! )
+    Metadata_Reference_Information
+
+Identification_Information:
+
+    Citation:
+
+        Citation_Information:
+
+            Originator: James Falcone
+            Publication_Date: 20111012
+            Title:
+                GAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow
+            Geospatial_Data_Presentation_Form: vector digital data
+            Publication_Information:
+
+                Publication_Place: Reston, Virginia
+                Publisher: U.S. Geological Survey
+
+            Online_Linkage: https://water.usgs.gov/lookup/getspatial?gagesII_Sept2011
+
+    Description:
+
+        Abstract:
+
+         This dataset, termed "GAGES II", an acronym for Geospatial Attributes of Gages for 
+        Evaluating Streamflow, version II, provides geospatial data and classifications for 9,322 
+        stream gages maintained by the U.S. Geological Survey (USGS). It is an update to the 
+        original GAGES, which was published as a Data Paper on the journal Ecology's website 
+        (Falcone and others, 2010b) in 2010. The GAGES II dataset consists of gages which 
+        have had either 20+ complete years (not necessarily continuous) of discharge record 
+        since 1950, or are currently active, as of water year 2009, and whose watersheds lie 
+        within the United States, including Alaska, Hawaii, and Puerto Rico. Reference gages 
+        were identified based on indicators that they were the least-disturbed watersheds within 
+        the framework of broad regions, based on 12 major ecoregions across the United States. 
+        Of the 9,322 total sites, 2,057 are classified as reference, and 7,265 as non-reference. 
+        Of the 2,057 reference sites, 1,633 have (through 2009) 20+ years of record since 1950. 
+        Some sites have very long flow records: a number of gages have been in continuous 
+        service since 1900 (at least), and have 110 years of complete record (1900-2009) to date.
+        			  
+        The geospatial data include several hundred watershed characteristics compiled from 
+        national data sources, including environmental features (e.g. climate – including historical 
+        precipitation, geology, soils, topography) and anthropogenic influences (e.g. land use, 
+        road density, presence of dams, canals, or power plants). The dataset also includes 
+        comments from local USGS Water Science Centers, based on Annual Data Reports, 
+        pertinent to hydrologic modifications and influences. The data posted also include 
+        watershed boundaries in GIS format. 
+        			  
+        This overall dataset is different in nature to the USGS Hydro-Climatic Data Network 
+        (HCDN; Slack and Landwehr 1992), whose data evaluation ended with water year 1988. 
+        The HCDN identifies stream gages which at some point in their history had periods which 
+        represented natural flow, and the years in which those natural flows occurred were identified 
+        (i.e. not all HCDN sites were in reference condition even in 1988, for example, 02353500). 
+        The HCDN remains a valuable indication of historic natural streamflow data. However, the 
+        goal of this dataset was to identify watersheds which currently have near-natural flow 
+        conditions, and the 2,057 reference sites identified here were derived independently of the 
+        HCDN. A subset, however, noted in the BasinID worksheet as “HCDN-2009”, has been 
+        identified as an updated list of 743 sites for potential hydro-climatic study. The HCDN-2009 
+        sites fulfill all of the following criteria: 
+        	(a) have 20 years of complete and continuous flow record in the last 20 years 
+        (water years 1990-2009), and were thus also currently active as of 2009, 
+        	(b) are identified as being in current reference condition according to the GAGES-II classification, 
+        	(c) have less than 5 percent imperviousness as measured from the NLCD 2006, and 
+        	(d) were not eliminated by a review from participating state Water Science Center evaluators.
+        			  
+        The data posted here consist of the following items:- This point shapefile, with summary data 
+        for the 9,322 gages.- A zip file containing basin characteristics, variable definitions, and a more 
+        detailed report.- A zip file containing shapefiles of basin boundaries, organized by classification 
+        and aggregated ecoregion.- A zip file containing mainstem stream lines (Arc line coverages) for 
+        each gage.
+
+        Purpose:
+
+         This dataset has two purposes: 
+        (1) to provide users with a comprehensive set of geospatial characteristics for a large number 
+        of gaged watersheds, particularly for gages with long flow record, and 
+
+        (2) to provide a determination of which of those watersheds represent hydrologic conditions 
+        which are least disturbed by human influences ("reference gages"), compared to other watersheds 
+        within 12 major ecoregions.  Identifying reference gages serves important research goals: for 
+        example identifying conditions or goals for stream restoration, climate change studies, and more.
+
+        Supplemental_Information:
+
+         The meaning of following phrases in the screening comments column in the file
+        gagesII_sep30_2011_conterm with tab Bas_Classif:
+        1. NEoA = No Evidence of hydrologic Alteration, based on examination of remote imagery.
+        2. ROMO= Rocky Mountain National Park
+        3. lt development = Light development. Minimal development.
+        4. lt ag = Light agriculture. Meaning, widely scattered row crops or pasture. 
+        5. hw =headwaters
+        6. HBN = Hydrologic Benchmark Network station (relatively pristine site)
+        7. RoR dams= run-of-river dams.  Dams that have no substantive storage.
+        8. mod-hvy ag = Moderate-heavy agricultural footprint.  Meaning, A mix of row crops and pasture.
+
+    Time_Period_of_Content:
+
+        Time_Period_Information:
+
+            Single_Date/Time:
+
+                Calendar_Date: 2011
+
+        Currentness_Reference: publication date
+
+    Status:
+
+        Progress: Complete
+        Maintenance_and_Update_Frequency: None Planned
+
+    Spatial_Domain:
+
+        Bounding_Coordinates:
+
+            West_Bounding_Coordinate: -180.000000
+            East_Bounding_Coordinate: 180.000000
+            North_Bounding_Coordinate: 90.000000
+            South_Bounding_Coordinate: 5.402082
+
+    Keywords:
+
+        Theme:
+
+            Theme_Keyword_Thesaurus: USGS Thesaurus
+            Theme_Keyword: inlandWaters
+            Theme_Keyword: USGS gages
+            Theme_Keyword: streamflow
+            Theme_Keyword: HCDN
+            Theme_Keyword: GAGES
+            Theme_Keyword: reference watersheds
+            Theme_Keyword: hydrologic condition
+            Theme_Keyword: hydrologic modification
+            Theme_Keyword: streamgage network
+
+        Theme:
+
+            Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+            Theme_Keyword: geoscientificInformation
+            Theme_Keyword: inlandWaters
+            Theme_Keyword: environment
+
+        Place:
+
+            Place_Keyword_Thesaurus: Geographic Names Information System
+            Place_Keyword: United States
+            Place_Keyword: All 50 states
+            Place_Keyword: Alabama
+            Place_Keyword: Alaska
+            Place_Keyword: Arizona
+            Place_Keyword: Arkansas
+            Place_Keyword: California
+            Place_Keyword: Colorado
+            Place_Keyword: Connecticut
+            Place_Keyword: Delaware
+            Place_Keyword: District of Columbia
+            Place_Keyword: Florida
+            Place_Keyword: Georgia
+            Place_Keyword: Hawaii
+            Place_Keyword: Idaho
+            Place_Keyword: Illinois
+            Place_Keyword: Indiana
+            Place_Keyword: Iowa
+            Place_Keyword: Kansas
+            Place_Keyword: Kentucky
+            Place_Keyword: Louisiana
+            Place_Keyword: Maine
+            Place_Keyword: Maryland
+            Place_Keyword: Massachusetts
+            Place_Keyword: Michigan
+            Place_Keyword: Minnesota
+            Place_Keyword: Mississippi
+            Place_Keyword: Missouri
+            Place_Keyword: Montana
+            Place_Keyword: Nebraska
+            Place_Keyword: Nevada
+            Place_Keyword: New Hampshire
+            Place_Keyword: New Jersey
+            Place_Keyword: New Mexico
+            Place_Keyword: New York
+            Place_Keyword: North Carolina
+            Place_Keyword: North Dakota
+            Place_Keyword: Ohio
+            Place_Keyword: Oklahoma
+            Place_Keyword: Oregon
+            Place_Keyword: Pennsylvania
+            Place_Keyword: Puerto Rico
+            Place_Keyword: Rhode Island
+            Place_Keyword: South Carolina
+            Place_Keyword: South Dakota
+            Place_Keyword: Tennessee
+            Place_Keyword: Texas
+            Place_Keyword: Utah
+            Place_Keyword: Vermont
+            Place_Keyword: Virginia
+            Place_Keyword: Washington
+            Place_Keyword: West Virginia
+            Place_Keyword: Wisconsin
+            Place_Keyword: Wyoming
+
+    Access_Constraints: None
+    Use_Constraints: The classification assigned in this project (reference or non-reference) was based on our semi-quantitative evaluation of the criteria described in the report, which included both quantitative and qualitative data. Our classification is intended as the best identification of reference-quality sites that we could perform given the limitations of national-scale data, and within the context of the regions we used. It was believed that the deficiencies of national-scale GIS data, which do not capture small diversions, dams or groundwater pumping particularly well, would be supplemented by an examination of ADR remarks and visual examination of every watershed from high-resolution imagery. It is possible that users with localized knowledge may be able to perform a better classification for specific areas. Users of these data should be attentive to potential differences between reference and non-reference gages - for example, watershed size (median size of reference gages = 212 sq km; of non-reference gages = 587 sq km). We also note that it would be possible to use the data posted here to identify a different, but equally valid, set of reference-quality stream gages for other purposes, based on other regions, or which place greater emphasis on specific anthropogenic activities or variables (e.g., urbanization), and that the classification presented here is not intended to be definitive. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although this Federal Geographic Data Committee-compliant metadata file is intended to document the data set in nonproprietary form, as well as in ArcInfo format, this metadata file may include some ArcInfo-specific terminology.
+    Point_of_Contact: (Warning: Although accurate at the time of production, this information may have become obsolete.
+    See the Metadata_Reference_Information section for a current contact.)
+
+        Contact_Information:
+
+            Contact_Person_Primary:
+
+                Contact_Person: James Falcone
+                Contact_Organization: U.S. Geological Survey
+
+            Contact_Position: Physical Scientist
+            Contact_Address:
+
+                Address_Type: mailing address
+                Address: 413 National Center
+                City: Reston
+                State_or_Province: Virginia
+                Postal_Code: 20192
+                Country: USA
+
+            Contact_Voice_Telephone: 703-648-5008
+            Contact_Electronic_Mail_Address: jfalcone@usgs.gov
+
+    Browse_Graphic:
+
+        Browse_Graphic_File_Name: https://water.usgs.gov/GIS/browse/gagesII.jpg
+        Browse_Graphic_File_Description:
+            Illustration of the dataset
+        Browse_Graphic_File_Type: jpg
+
+    Data_Set_Credit: The original conception and rationale for creating GAGES is from Daren Carlisle, David Wolock, and Michael Meador, of the USGS. In its assembly, we gratefully recognize the tremendous work done by Lisa Weber, Kelly Ruhl, Chris Hill, and Michael Wieczorek, as well as the helpful colleague reviews provided by Al Rea, Ken Eng, Silvia Terziotti, and Kerie Hitt, all of the USGS, and of three journal reviewers from the journal Ecology for the original data. We also acknowledge the invaluable input from our colleagues at USGS Water Science Centers: Delwyn Oki in Hawaii, Jackie McIntire and David Meyer in Alaska, and Marilyn Santiago and Heriberto Torres-Sierra in Puerto Rico. We also acknowledge the USGS EDNA program, for assistance and guidance on basin delineation methods, particularly Sandra Poppenga, Susan Greenlee, and Bruce Worstell.
+    Security_Information:
+
+        Security_Classification_System: None
+        Security_Classification: Unclassified
+        Security_Handling_Description: None
+
+    Native_Data_Set_Environment:
+        Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414
+
+Back to Top
+
+Data_Quality_Information:
+
+    Attribute_Accuracy:
+
+        Attribute_Accuracy_Report: Source data was checked using standard USGS review procedures. Attributes were checked by plotting the coverage and reselecting for the different values.
+
+    Logical_Consistency_Report: data was reviewed throught the official USGS review process
+    Completeness_Report: complete
+    Lineage:
+
+        Process_Step:
+
+            Process_Description:
+
+             The geospatial data include 
+            several hundred watershed characteristics compiled from national data 
+            sources, including environmental features (e.g. climate – including 
+            historical precipitation, geology, soils, topography) and anthropogenic 
+            influences (e.g. land use, road density, presence of dams, canals, or 
+            power plants). The dataset also includes comments from local USGS Water 
+            Science Centers, based on Annual Data Reports, pertinent to hydrologic 
+            modifications and influences. The data posted also include watershed 
+            boundaries in GIS format. 
+
+                The geospatial data include several hundred watershed characteristics compiled from national data sources, including environmental features (e.g. climate – including historical precipitation, geology, soils, topography) and anthropogenic influences (e.g. land use, road density, presence of dams, canals, or power plants). The dataset also includes comments from local USGS Water Science Centers, based on Annual Data Reports, pertinent to hydrologic modifications and influences. The data posted also include watershed boundaries in GIS format. 
+            Process_Date: 2011
+
+Back to Top
+
+Spatial_Data_Organization_Information:
+
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information:
+
+        SDTS_Terms_Description:
+
+            SDTS_Point_and_Vector_Object_Type: Entity point
+            Point_and_Vector_Object_Count: 9322
+
+Back to Top
+
+Spatial_Reference_Information:
+
+    Horizontal_Coordinate_System_Definition:
+
+        Planar:
+
+            Map_Projection:
+
+                Map_Projection_Name: NAD 1983 Albers
+                Albers_Conical_Equal_Area: NAD 1983 Albers
+
+                    Standard_Parallel: 29.5
+                    Standard_Parallel: 45.5
+                    Longitude_of_Central_Meridian: -96.0
+                    Latitude_of_Projection_Origin: 23.0
+                    False_Easting: 0.0
+                    False_Northing: 0.0
+
+            Planar_Coordinate_Information:
+
+                Planar_Coordinate_Encoding_Method: coordinate pair
+                Coordinate_Representation:
+
+                    Abscissa_Resolution: 0.0000000037527980722984474
+                    Ordinate_Resolution: 0.0000000037527980722984474
+
+                Planar_Distance_Units: Meter
+
+        Geodetic_Model:
+
+            Horizontal_Datum_Name: D North American 1983
+            Ellipsoid_Name: GRS 1980
+            Semi-major_Axis: 6378137.0
+            Denominator_of_Flattening_Ratio: 298.257222101
+
+Back to Top
+
+Entity_and_Attribute_Information:
+
+    Detailed_Description:
+
+        Entity_Type:
+
+            Entity_Type_Label: gagesII_9322_sept30_2011
+            Entity_Type_Definition:
+                Point attribute table
+            Entity_Type_Definition_Source:
+                Automatically created
+
+        Attribute:
+
+            Attribute_Label: FID
+            Attribute_Definition: Internal feature number.
+            Attribute_Definition_Source: ESRI
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    Sequential unique whole numbers that are automatically generated.
+
+        Attribute:
+
+            Attribute_Label: Shape
+            Attribute_Definition: Feature geometry.
+            Attribute_Definition_Source: ESRI
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    Coordinates defining the features.
+
+        Attribute:
+
+            Attribute_Label: STAID
+            Attribute_Definition: Station ID
+            Attribute_Definition_Source: USGS NWIS
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    number
+
+        Attribute:
+
+            Attribute_Label: STANAME
+            Attribute_Definition: Station Name
+            Attribute_Definition_Source: USGS NWIS
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    48 states
+
+        Attribute:
+
+            Attribute_Label: CLASS
+            Attribute_Definition: Classification (Ref or Non-ref)
+            Attribute_Definition_Source: classification
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    Ref or Non-Ref
+
+        Attribute:
+
+            Attribute_Label: AGGECOREGI
+            Attribute_Definition: Aggregated ecoregion
+            Attribute_Definition_Source: ecoregion
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    ecoregion value
+
+        Attribute:
+
+            Attribute_Label: DRAIN_SQKM
+            Attribute_Definition: Drainage area, sq km
+            Attribute_Definition_Source: drainage area
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    square kilometers
+
+        Attribute:
+
+            Attribute_Label: HUC02
+            Attribute_Definition: Hydrologic Unit Code, 2-digit
+            Attribute_Definition_Source: HUC
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    1-21 regions
+
+        Attribute:
+
+            Attribute_Label: LAT_GAGE
+            Attribute_Definition: Latitude, decimal degrees
+            Attribute_Definition_Source: Latitude
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    decimal degrees
+
+        Attribute:
+
+            Attribute_Label: LNG_GAGE
+            Attribute_Definition: Longitude, decimal degrees
+            Attribute_Definition_Source: Longitude
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    decimal degrees
+
+        Attribute:
+
+            Attribute_Label: STATE
+            Attribute_Definition: State at gage location
+            Attribute_Definition_Source: State
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    48 state names
+
+        Attribute:
+
+            Attribute_Label: HCDN_2009
+            Attribute_Definition: If gage is part of HCDN-2009
+            Attribute_Definition_Source: HCDN
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    HCDN 
+
+        Attribute:
+
+            Attribute_Label: ACTIVE09
+            Attribute_Definition: If gage active in water year 2009
+            Attribute_Definition_Source: active
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    2009
+
+        Attribute:
+
+            Attribute_Label: FLYRS1900
+            Attribute_Definition: Number of complete years of flow data between 1900 and 2009
+            Attribute_Definition_Source: complete years
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    1900-2009
+
+        Attribute:
+
+            Attribute_Label: FLYRS1950
+            Attribute_Definition: Number of complete years of flow data between 1950 and 2009
+            Attribute_Definition_Source: complete years of flow data
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    1950, 2009
+
+        Attribute:
+
+            Attribute_Label: FLYRS1990
+            Attribute_Definition: Number of complete years of flow data between 1990 and 2009
+            Attribute_Definition_Source: complete years of flow data
+            Attribute_Domain_Values:
+
+                Unrepresentable_Domain:
+                    1990, 2009
+
+Back to Top
+
+Distribution_Information:
+
+    Distributor:
+
+        Contact_Information:
+
+            Contact_Organization_Primary:
+
+                Contact_Organization: U.S. Geological Survey
+
+            Contact_Position: Ask USGS - Water Webserver Team
+            Contact_Address:
+
+                Address_Type: mailing
+                Address: 445 National Center
+                City: Reston
+                State_or_Province: VA
+                Postal_Code: 20192
+
+            Contact_Voice_Telephone: 1-888-275-8747 (1-888-ASK-USGS)
+            Contact_Electronic_Mail_Address: https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&subject=GIS+Dataset+gagesII_Sept2011
+
+    Resource_Description: Downloadable Data
+    Distribution_Liability:
+
+     Although this data set has been used by the U.S. Geological
+    Survey, U.S. Department of the Interior, no warranty expressed or
+    implied is made by the U.S. Geological Survey as to the accuracy
+    of the data and related materials. The act of distribution shall not 
+    constitute any such warranty, and no responsibility is assumed by 
+    the U.S. Geological Survey in the use of this data, software, or 
+    related materials.
+    			
+    Any use of trade, product, or firm names is for descriptive
+    purposes only and does not imply endorsement by the U.S.
+    Government.
+
+    How To Get the Data
+
+    Standard_Order_Process describes the file formats that are available for downloading. One or more data downloads may be available.
+
+    For best results download files by right-click/save to disk in your browser. (See guidance on file formats.)
+
+    Save this file to a disk.
+    Standard_Order_Process:
+
+        Digital_Form:
+
+            Digital_Transfer_Information:
+
+                Format_Name: Shape file
+                Format_Information_Content: Point shape file of gage locations
+                File_Decompression_Technique: zipped
+                Transfer_Size: 0.7
+
+            Digital_Transfer_Option:
+
+                Online_Option:
+
+                    Computer_Contact_Information:
+
+                        Network_Address:
+
+                            Network_Resource_Name: https://water.usgs.gov/GIS/dsdl/gagesII_9322_point_shapefile.zip
+
+        Digital_Form:
+
+            Digital_Transfer_Information:
+
+                Format_Name: Excel, Word, and csv
+                Format_Information_Content: Basin characteristics and update report
+                File_Decompression_Technique: zipped
+                Transfer_Size: 53.9
+
+            Digital_Transfer_Option:
+
+                Online_Option:
+
+                    Computer_Contact_Information:
+
+                        Network_Address:
+
+                            Network_Resource_Name: https://water.usgs.gov/GIS/dsdl/basinchar_and_report_sept_2011.zip
+
+        Digital_Form:
+
+            Digital_Transfer_Information:
+
+                Format_Name: Shape file
+                Format_Information_Content: Basin boundaries in .shp file format
+                File_Decompression_Technique: zipped
+                Transfer_Size: 200.0
+
+            Digital_Transfer_Option:
+
+                Online_Option:
+
+                    Computer_Contact_Information:
+
+                        Network_Address:
+
+                            Network_Resource_Name: https://water.usgs.gov/GIS/dsdl/boundaries_shapefiles_by_aggeco.zip
+
+        Digital_Form:
+
+            Digital_Transfer_Information:
+
+                Format_Name: Coverage
+                Format_Information_Content: Mainstem line coverages
+                File_Decompression_Technique: zipped
+                Transfer_Size: 87.0
+
+            Digital_Transfer_Option:
+
+                Online_Option:
+
+                    Computer_Contact_Information:
+
+                        Network_Address:
+
+                            Network_Resource_Name: https://water.usgs.gov/GIS/dsdl/mainstem_line_covers.zip
+
+        Fees: None. This dataset is provided by USGS as a public service.
+
+Back to Top
+
+Metadata_Reference_Information:
+
+    Metadata_Date: 20110131
+    Metadata_Contact:
+
+        Contact_Information:
+
+            Contact_Organization_Primary:
+
+                Contact_Organization: U.S. Geological Survey
+
+            Contact_Position: Ask USGS -- Water Webserver Team
+            Contact_Address:
+
+                Address_Type: mailing address
+                Address: 445 National Center
+                City: Reston
+                State_or_Province: VA
+                Postal_Code: 20192
+
+            Contact_Voice_Telephone: 1-888-275-8747 (1-888-ASK-USGS)
+            Contact_Electronic_Mail_Address: https://water.usgs.gov/user_feedback_form.html
+
+    Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998
+
+Back to Top
+
+
+Metadata stylesheet adapted from stylesheets provided courtesy of ESRI and NOAA. The original style sheets of ESRI are copyright (c) 2000-2002, Environmental Systems Research Institute, Inc. All rights reserved. This stylesheet is not intended for use with non-USGS datasets.
+
+Accessibility | FOIA | Privacy | Policies and Notices
+
+USAGov logo U.S. Department of the Interior
+U.S. Geological Survey
+Page Contact Information: Webmaster
+Page Last Modified: March 2020

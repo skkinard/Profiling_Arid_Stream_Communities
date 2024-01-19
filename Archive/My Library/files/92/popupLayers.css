@@ -1,0 +1,123 @@
+#overlay {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    top: 150px;
+    width: 100%;
+    z-index: 600;
+}
+
+#wrapper hr {
+    background-color: #CBCBCB;
+    border: 0 none;
+    color: #CBCBCB;
+    height: 1px;
+    margin: 0px;
+}
+
+#topWrapper {
+    overflow: hidden;
+    background-color: #BE1E2E;
+    color: #FFF;
+}
+
+#highResImg {
+    float: left;
+    padding-left: 10px;
+}
+
+#pptLink {
+    float: right;
+    padding-right: 10px;
+}
+
+.close {
+    text-decoration: underline;
+    margin: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.prevItem, .nextItem {
+    cursor: pointer;
+}
+
+#tablesWrapper .pagination {
+    margin-bottom: 10px;
+}
+
+.paginate {
+    position: relative;
+}
+
+.prevItem {
+    float: left;
+    padding-left: 20px;
+}
+
+.nextItem {
+    float: right;
+    padding-right: 20px;
+}
+
+#figWrapper .prevItem {
+    margin-left: -120px;
+}
+
+#figWrapper .nextItem {
+    margin-right: -120px;
+}
+
+#background, #backgroundTables {
+    background: #aaa;
+    height: 100%;
+    left: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    opacity: 0.5;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* for ie8 */
+    filter: alpha(opacity=50);  /* for ie5-7 */
+}
+
+#popupWrapper {
+    background: #E6E7E8;
+    border: 1px solid #6B6B6B;
+    width: 880px;
+    color: #000;
+    font-size: 12px;
+    margin: auto;
+}
+
+.pagination, #figureCaption, #highResImg, #captionTables {
+    text-align: center;
+}
+
+#figureCaption, #caption {
+    padding: 10px 5px;
+    background-color: #BE1E2E;
+    color: #FFF;
+}
+
+#figWrapper img {
+    border: 1px solid #a9a9a9;
+    max-width: 800px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #FFF;
+}
+
+.openFigLayer, .openTablesLayer {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#links {
+    margin-bottom: 10px;
+}
+
+.openTablesLayer p {
+    padding-left: 35px;
+    padding-top: 2px;
+}

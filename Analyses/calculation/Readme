@@ -1,0 +1,24 @@
+
+# Script summaries for calculations in the Kinard et al. 2021 PeerJ article describing communities spanning a natural precipitation gradient.
+
+00_E_lm_pairs.R: It focuses on preprocessing, visualizing, and analyzing environmental data through regression analysis, aiding in interpreting relationships between different environmental variables.
+
+02_E_PCA.R10_F_div_MRA.R: This script conducts Principal Component Analysis (PCA) on selected environmental predictors, correlates predictors with principal components, and exports results. Additionally, it performs multivariate regression analysis on fish diversity and environmental variables.
+
+04_div_calc.R: This script calculates and visualizes diversity measures for fish and invertebrate communities, adds these measures to datasets, and exports them for further analysis.
+
+06_F_div_lm.R: It conducts linear regressions to examine the relationship between fish diversity measures and precipitation, visualizes these relationships, and exports results.
+
+08_I_div_lm.R: This script investigates the relationship between invertebrate diversity and precipitation through linear regressions, including outlier removal and visualization of significant regressions.
+
+10_F_div_MRA.R: It utilizes multivariate regression techniques to explore the relationship between fish diversity and environmental variables.
+
+12_I_div_MRA.R: Similar to the previous script, but focused on invertebrate diversity and environmental variables.
+
+14_F_RDA.R: This script employs Redundancy Analysis to explore the relationship between fish community composition and environmental variables, with effective visualization.
+
+16_I_RDA.R: Similar to the previous script but focused on invertebrate community composition and environmental variables.
+
+18_E_regression.R: This script conducts exploratory data analysis, Multivariate Regression Analysis, exhaustive multivariable regression analysis, individual predictor regressions, investigates covariation between watershed factors and precipitation, and visualizes relationships between environmental variables.
+
+

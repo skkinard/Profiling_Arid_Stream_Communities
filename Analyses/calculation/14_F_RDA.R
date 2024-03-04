@@ -1,12 +1,28 @@
+# 14_F_RDA
 # Sean Kinard
 # 03-30-2021
-# Spring 17 Texas Coastal Prairie
+# -----------------------------------------------------------------------------
+# Description
+# -----------------------------------------------------------------------------
+# The script begins by loading two datasets: one containing environmental data and another containing fish abundance data. It then selects and scales the environmental variables of interest and merges the datasets to ensure matching rows (sites).
 
-# Invertebrate Canonical Ordination Using Hellinger-transformation and 
-# RDA constrained to annual precipitation
+# Next, the script performs a Redundancy Analysis (RDA) to explore the relationship between fish community composition and environmental variables. It conducts this analysis using the Hellinger-transformed fish abundance data. The RDA results are summarized, and an ordination plot is generated to visualize the relationship between sites and species in the reduced environmental space.
 
+# Following the ordination plot, the script employs the envfit function to identify environmental variables that significantly influence the fish community composition. It selects species and environmental variables with statistically significant p-values to display as arrows on the ordination plot.
 
+# Additionally, the script performs an alternative RDA analysis using all environmental predictors. It calculates the Variance Inflation Factor (VIF) to identify multicollinearity among predictors and conducts forward model selection to find the subset of environmental variables that best explain variation in fish community composition.
 
+# Furthermore, the script conducts variance partitioning to assess the relative contributions of NH4 and other environmental variables to the variation in fish community composition.
+
+# Finally, the script concludes with visualizations of the variance partitioning results and partial RDA analysis with only NH4 as a predictor.
+
+# In summary, the script utilizes Redundancy Analysis to explore the relationship between fish community composition and environmental variables, providing insights into the drivers of fish diversity in the studied sites. Additionally, it employs various visualization techniques to present the results effectively.
+
+# Disclaimer: This is my first R project. It is not an accurate representation of my contemporary coding diction. It also utilizes tools from my ecological statistics course.
+
+# -----------------------------------------------------------------------------
+# Setup
+# -----------------------------------------------------------------------------
 # Load Packages
 library(BiodiversityR)
 library(ggsci)
@@ -26,8 +42,6 @@ library(tidyverse)
 env <- read.csv("sp17_data_files/sp17_site_x_env.csv")
 fish <- read.csv("sp17_data_files/sp17_site_x_fish.csv")
 
-# - # - # - # - # - # - # - # - # - # - # - # - # # - # - # - # - #
-
 # cleaning up data frames to include only the a priori selected variables and community abundance matrix
 (env <- select(env, STAID, AP, flash.index, LFPP, NH4., log.cond, Rosgen.Index))
 
@@ -42,11 +56,9 @@ msterfish <- merge(env,fish, by = "STAID")
 spec <- msterfish[,8:25]
 env2 <- msterfish[,2:7]
 
-# - # - # - # - # - # - # - # - # - # - # - # - # # - # - # - # - #
-
-# # # # # # # # # # # # # # # 
-# Redundancy Analysis (RDA) #
-# # # # # # # # # # # # # # # 
+# -----------------------------------------------------------------------------
+# Redundancy Analysis (RDA)
+# -----------------------------------------------------------------------------
 
 # step 1: The ordiplot object is obtained from the result of via function rda. The ordination is done with a community data set that is transformed by the Hellinger method.
 
@@ -73,6 +85,9 @@ species.long2
 axis.long2 <- axis.long(Ordination.model2, choices=c(1, 2))
 axis.long2
 
+# -----------------------------------------------------------------------------
+# Visualization
+# -----------------------------------------------------------------------------
 # Step 3: Generate plot adding information on sites and species similar to the ordiplot:
 
 plot_frda <- ggplot() +
@@ -93,7 +108,6 @@ plot_frda <- ggplot() +
   theme(text = element_text(size = 16)) +
   theme(axis.text = element_text(size = 16)) +
   theme(axis.title = element_text(size = 20))
-
 
 plot_frda
 
@@ -178,9 +192,9 @@ plot_frda_nolabel  <- ggplot() +
 
 plot_frda_nolabel
 
-# - # - # - # - # - # - # - # - # - # - # - # - # # - # - # - # - #
-
+# -----------------------------------------------------------------------------
 # Alternative RDA constrained to all environmental predictors 
+# -----------------------------------------------------------------------------
 # (not advised for small sample sites)
 # Seek 'partially' constrained RDA with fewer variables where # variables is less than the sample sites divided by 2 (See Legendre 2018 Numerical Ecology using R)
 # Secondary Goal: Identify covariation among predictors via VIF and variance partitions
@@ -234,14 +248,5 @@ spe.rda.NH4 <- rda(spe.hel ~ NH4., data = env2)
 (R2a.all <- RsquareAdj(spe.rda.NH4))
 # R2 = 0.2467953 
 
-# End
-# - # - # - # - # - # - # - # - # - # - # - # - # # - # - # - # - #
-
-
-
-
-
-
-
-
-
+# -----------------------------------------------------------------------------
+# End 14_F_RDA

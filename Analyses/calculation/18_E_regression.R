@@ -1,15 +1,27 @@
+# 18_E_regression
 # Sean Kinard
 # 2-15-2020
-# Spring 17 Texas Coastal Prairie
+# -----------------------------------------------------------------------------
+# Description
+# -----------------------------------------------------------------------------
+# The script begins by visualizing the correlations between different environmental variables using the aug.pairs function, which likely generates a matrix of scatterplots with correlations displayed.
+# 
+# Next, the script performs Multivariate Regression Analysis (MRA) using additive linear regression models to identify multivariate relationships between the flash index and several environmental predictors (LFPP, HFPP, Av.Flow, Rip.forest, AP, DRAIN_SQKM). Two separate models (full.model.flash and full.model.LFPP) are created and analyzed using the lm function. Variance inflation factors (VIFs) are calculated to check for multicollinearity among the predictors.
+# 
+# The script then conducts exhaustive multivariable regression analysis using the dredge function to explore different model combinations for explaining variation in the flash index and LFPP. The results of these analyses are displayed and evaluated.
+# 
+# Following the multivariable regression analyses, the script performs linear regressions to assess the relationships between individual environmental predictors and the flash index or LFPP. The p-values and coefficients of determination (R-squared) are reported for each regression model.
+# 
+# The script further investigates whether watershed factors that covary with flow metrics also covary with precipitation. Linear regression models are fitted to explore the relationship between drainage area (DRAIN_SQKM) and precipitation (AP). Scatterplots with regression lines are generated to visualize these relationships.
+# 
+# Finally, the script visualizes the relationships between various environmental variables (DRAIN_SQKM, Av.Flow, LFPP, HFPP, AP) using scatterplots with regression lines (geom_smooth). Each plot includes annotations indicating the regression equation, R-squared value, and significance level (alpha). These plots provide insights into the relationships between different environmental variables.
 
-# Post Analysis; investigating ns correlations:
-# flash index versus precipitation
-# LFPP versus precipitation
 
-# Set Working Directory "...PeerJ_Sp17_REVISED\\"
-# setwd("C:\\Users\\s2kin\\Dropbox\\Research\\Manuscipts\\Diss.2_Gradient\\PeerJ_Sp17_REVISED\\")
+# Disclaimer: This is my first R project. It is not an accurate representation of my contemporary coding diction. It also utilizes tools from my ecological statistics course.
 
-
+# -----------------------------------------------------------------------------
+# Setup
+# -----------------------------------------------------------------------------
 # Load Packages
 library(nlme)
 library(multcomp)
@@ -39,10 +51,14 @@ env <- merge(env,drainage, by = STAID)
 (env <- select(env, flash.index, LFPP, HFPP, Av.Flow, Rip.forest, AP, DRAIN_SQKM))
 env.scale <- as.data.frame(scale(env))
 
+# -----------------------------------------------------------------------------
 # Visualize Correlations
+# -----------------------------------------------------------------------------
 aug.pairs(env.scale, na.action=na.omit)
 
-# Identify Multivariate relationships using addivitive lm
+# -----------------------------------------------------------------------------
+# MRA: Identify Multivariate relationships using addivitive lm
+# -----------------------------------------------------------------------------
 full.model.flash <- lm(flash.index ~ LFPP+ HFPP+ Av.Flow+ Rip.forest+ AP+ DRAIN_SQKM, data=env.scale)
 summary(full.model.flash)
 # Coefficients:
@@ -107,10 +123,9 @@ summary(flash_drainage) # p-value: 0.1989
 LFPP_meanflow <- lm(formula= LFPP ~ Av.Flow, data = env)
 summary(flash_meanflow) # p-value: 0.4537
 
-
-
-
+# -----------------------------------------------------------------------------
 # Do the watershed factors that covary with flow metrics also covary with preicpitation?
+# -----------------------------------------------------------------------------
 env <- read.csv("sp17_data_files/sp17_site_x_env.csv", encoding = 'UTF-8')
 env <- merge(env,drainage, by = STAID)
 
@@ -187,18 +202,5 @@ env_q <- select(env, DRAIN_SQKM, Av.Flow, LFPP, HFPP, AP)
 
 aug.pairs(env_q)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# -----------------------------------------------------------------------------
+# End 18_E_regression

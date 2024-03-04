@@ -1,0 +1,42 @@
+kinard_et_al_2021 project data summary:
+
+2018.Stream.Geom.Calculated.xlsx
+Geomorphology data for most of the RAPID streams (several data sheets were lost and never recovered). This excell book contains the data as well as excel-based analyses using tabs and summarized in a 'summary' tab. Uniquely, tabs for each site contain visualization of each transect's depth profile. Data contains 1333x17 entries, transects contains 261x7 entries and pebbles contains 505x3 entries.
+
+DataDownloadScript
+A script provided by Dr. Patrick which details the data query from USGS databases using R package 'WaterData'.
+
+Field.Data.Master.xlsx
+In-situ environmental measurements (14679 x 16 entries), 
+raw data, qaqc data, 
+salinity calculator, 
+oxygen calculator, 
+ntu adjustments, 
+meta data for environmental variables. 
+
+Fish_QaQc_9.2017-11.2018.xlsx
+QAQC fish data: Excel book with multiple tabs containing the following: 
+fish species (50 x 3), 
+fish lengths (5968 x 12), 
+fish abundance (867 x 12)
+
+Kicknet.Survey.Spring2017.xlsx
+invertebrate data (320 x 7)
+
+'Source Files'
+additional data mostly pulled from USGS gauges ii
+
+
+Spring2017.Stream.Habitat.xlsx
+in_situ_summary data (45x30)
+
+'Stream Codes.docx'
+key for site abbreviations
+
+StreamDischargeData.Aug1.2017.July.16.2018.xlsx
+queried daily discharge data (351x10)
+
+StreamSites.RAPID2017.2018.Gauges.xlsx
+key site_name to site_code to station ID for USGS queries
+
+

@@ -1,6 +1,24 @@
+# 10_F_div_MRA
 # Sean Kinard
 # 07-19-2021
-# Spring 17 Texas Coastal Prairie
+# -----------------------------------------------------------------------------
+# Description
+# -----------------------------------------------------------------------------
+# The script begins by loading two datasets: one containing fish diversity estimates and another containing environmental data. It then proceeds to clean up the data frames to include only the a-priori selected variables and merges them to ensure matching rows (sites).
+# 
+# Following data preparation, the script conducts multivariate regression analysis to explore the relationship between fish diversity measures and environmental variables. It fits a full model regression with species richness (shannon) as the dependent variable and several environmental predictors (AP, flash.index, LFPP, NH4., log.cond, Rosgen.Index). The summary of the full model regression is provided, including estimates, standard errors, t-values, and p-values for each predictor. Additionally, the script calculates the Variance Inflation Factor (VIF) to check for multicollinearity among predictors.
+# 
+# The script then performs an exhaustive multivariable regression analysis using the dredge function and selects models with a delta AICc less than 2. It identifies multiple regression models with low AICc values, indicating that precipitation (AP) is a positive predictor while low flow pulse percent (LFPP) is a negative predictor of fish diversity.
+# 
+# Finally, the script exports the results of the multivariate regression analysis into a CSV file for further examination and reporting.
+# 
+# In summary, the script employs multivariate regression techniques to investigate the relationship between fish diversity and environmental variables, providing insights into the predictors of fish diversity in the studied sites.
+
+# Disclaimer: This is my first R project. It is not an accurate representation of my contemporary coding diction. It also utilizes tools from my ecological statistics course.
+
+# -----------------------------------------------------------------------------
+# Setup
+# -----------------------------------------------------------------------------
 
 # Fish multiple regressions with environmental predictors
 
@@ -23,13 +41,10 @@ fish <- read_csv("sp17_data_files/fish_diversity_estimates.csv")
 env <- read_csv("sp17_data_files/sp17_site_x_env.csv")
 
 # cleaning up data frames to include only the a priori selected variables and community abundance matrix
-
 # Merge dataframes to ensure matching rows (sites) 
 msterfish <- merge(env,fish, by = "STAID")
 
-# - # - # - # - # - # - # - # - # - # - # - # - # # - # - # - # - #
-
-# :::::::::::::::::::::::::::::::::::::::::::::::::::::
+# -----------------------------------------------------------------------------
 # Multivariate Regression analysis
 # Fish
 # a priori selected environmental variables
@@ -63,9 +78,6 @@ dredge_fish <- dredge(full.model.fish)
 options(na.action = "na.omit")
 dredge_fish <- as.data.frame(dredge_fish[1:10,])
 
-# Export fish richness multiple regression outputs
-write_csv(dredge_fish, "sp17_data_files\\dredge_fish.csv")
-
 # delta < 2 multivariate regression models:
 dredge_fish_rich[c(which(dredge_fish_rich$delta < 2)),]
 
@@ -92,15 +104,11 @@ summary(fm2)
 
 # Results: Multiple regression models with AICc < 2 indicate that precipitation is a positive predictor while low flow pulse percent is a negative predictor of fish diversity.
 
+# -----------------------------------------------------------------------------
+# Export
+# -----------------------------------------------------------------------------
+# Export fish richness multiple regression outputs
+write_csv(dredge_fish, "sp17_data_files\\dredge_fish.csv")
+
+# -----------------------------------------------------------------------------
 # End
-# - # - # - # - # - # - # - # - # - # - # - # - # # - # - # - # - #
-
-
-
-
-
-
-
-
-
-
